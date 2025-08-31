@@ -1,0 +1,287 @@
+# Zettelkasten AI Workflow Configuration
+
+workflows:
+  # 1. Content Classification and Initial Processing
+  content_classification:
+    name: "Content Classification and Initial Processing"
+    trigger: "new_content_in_inbox"
+    steps:
+      - step: "analyze_content"
+        action: "classify_content_type"
+        inputs:
+          - content_text
+          - content_source
+        outputs:
+          - content_type # literature|concept|question|project
+          - suggested_tags
+          - confidence_score
+        
+      - step: "generate_template"
+        action: "create_note_template"
+        conditions:
+          - if: "content_type == 'literature'"
+            template: "literature_note_template"
+          - if: "content_type == 'concept'"
+            template: "permanent_note_template"
+          - if: "content_type == 'project'"
+            template: "project_note_template"
+        
+      - step: "suggest_filename"
+        action: "generate_filename"
+        format:
+          literature: "LN-{date}-{author}-{title}"
+          permanent: "{timestamp}-{concept-name}"
+          project: "PRJ-{date}-{project-name}"
+        
+      - step: "initial_tagging"
+        action: "suggest_tags"
+        inputs:
+          - content_analysis
+          - existing_tag_taxonomy
+        outputs:
+          - primary_tags
+          - secondary_tags
+
+  # 2. Literature Note Processing
+  literature_processing:
+    name: "Literature Note to Permanent Note Extraction"
+    trigger: "literature_note_completed"
+    steps:
+      - step: "content_analysis"
+        action: "extract_key_concepts"
+        parameters:
+          min_concepts: 2
+          max_concepts: 5
+          atomic_principle: true
+        outputs:
+          - concept_list
+          - concept_importance_scores
+          
+      - step: "concept_validation"
+        action: "check_existing_notes"
+        inputs:
+          - concept_list
+          - permanent_notes_database
+        outputs:
+          - new_concepts
+          - existing_connections
+          - merge_candidates
+          
+      - step: "permanent_note_generation"
+        action: "create_permanent_notes"
+        for_each: "new_concepts"
+        template: "permanent_note_template"
+        fill_variables:
+          - core_concept
+          - context
+          - implications
+          - examples
+          - connections
+          
+      - step: "connection_mapping"
+        action: "suggest_connections"
+        inputs:
+          - new_permanent_notes
+          - existing_permanent_notes
+        outputs:
+          - bidirectional_links
+          - connection_strength
+          - connection_rationale
+
+  # 3. Structure Note Maintenance
+  structure_maintenance:
+    name: "Structure Note Updates"
+    trigger: "weekly_review|new_permanent_notes_threshold"
+    steps:
+      - step: "analyze_knowledge_growth"
+        action: "detect_structural_changes"
+        inputs:
+          - new_permanent_notes_since_last_run
+          - existing_structure_notes
+        outputs:
+          - structure_update_candidates
+          - new_structure_suggestions
+          
+      - step: "update_existing_structures"
+        action: "modify_structure_notes"
+        for_each: "structure_update_candidates"
+        operations:
+          - add_new_concepts
+          - reorder_hierarchy
+          - update_relationships
+          
+      - step: "suggest_new_structures"
+        action: "identify_emerging_themes"
+        parameters:
+          min_related_notes: 5
+          theme_coherence_threshold: 0.7
+        outputs:
+          - new_structure_proposals
+          - proposed_scope
+          - suggested_entry_points
+
+  # 4. Index Note Management
+  index_management:
+    name: "Index Note Updates"
+    trigger: "structure_changes|monthly_review"
+    steps:
+      - step: "scan_new_additions"
+        action: "identify_indexable_content"
+        inputs:
+          - new_permanent_notes
+          - new_structure_notes
+        outputs:
+          - concepts_to_index
+          - people_to_index
+          - methods_to_index
+          
+      - step: "update_category_indexes"
+        action: "modify_index_notes"
+        for_each: "affected_index_categories"
+        operations:
+          - add_new_entries
+          - update_descriptions
+          - maintain_alphabetical_order
+          - cross_reference_related_indexes
+          
+      - step: "master_index_update"
+        action: "update_master_index"
+        inputs:
+          - all_category_changes
+        outputs:
+          - updated_master_index
+          - health_check_report
+
+  # 5. Project Integration
+  project_integration:
+    name: "Project-Knowledge Integration"
+    trigger: "project_start|project_milestone|project_completion"
+    steps:
+      - step: "knowledge_mapping"
+        action: "find_relevant_knowledge"
+        inputs:
+          - project_description
+          - project_goals
+        search_targets:
+          - permanent_notes
+          - structure_notes
+          - literature_notes
+        outputs:
+          - relevant_knowledge_map
+          - knowledge_gaps
+          
+      - step: "gap_analysis"
+        action: "identify_learning_needs"
+        inputs:
+          - knowledge_gaps
+          - project_requirements
+        outputs:
+          - priority_learning_areas
+          - suggested_literature
+          
+      - step: "project_note_creation"
+        action: "generate_project_note"
+        template: "project_note_template"
+        include:
+          - knowledge_map
+          - gap_analysis
+          - action_items
+          
+      - step: "knowledge_extraction"
+        condition: "project_completion"
+        action: "extract_lessons_learned"
+        outputs:
+          - new_permanent_note_candidates
+          - updated_methods
+          - process_improvements
+
+  # 6. MCP Query Response
+  mcp_query_response:
+    name: "MCP Server Query Processing"
+    trigger: "external_query_received"
+    steps:
+      - step: "query_analysis"
+        action: "parse_query_intent"
+        inputs:
+          - user_query
+        outputs:
+          - query_type # factual|procedural|creative|analytical
+          - search_strategy
+          - response_format
+          
+      - step: "knowledge_search"
+        action: "multi_source_search"
+        search_order:
+          - 1. permanent_notes # highest priority
+          - 2. structure_notes # for context
+          - 3. index_notes # for navigation
+          - 4. literature_notes # for sources
+        parameters:
+          search_depth: 3 # follow connections 3 levels deep
+          relevance_threshold: 0.6
+          
+      - step: "response_synthesis"
+        action: "synthesize_knowledge"
+        inputs:
+          - search_results
+          - query_context
+        operations:
+          - rank_by_relevance
+          - follow_logical_connections
+          - provide_source_attribution
+          - suggest_related_queries
+          
+      - step: "response_formatting"
+        action: "format_response"
+        based_on:
+          - query_type
+          - user_context
+        formats:
+          factual: "direct_answer_with_sources"
+          procedural: "step_by_step_with_examples"
+          creative: "structured_inspiration_with_references"
+          analytical: "multi_perspective_analysis"
+
+# Configuration Parameters
+parameters:
+  confidence_thresholds:
+    literature_extraction: 0.8
+    concept_connection: 0.7
+    structure_suggestion: 0.75
+    
+  batch_processing:
+    max_notes_per_batch: 10
+    processing_interval: "daily"
+    
+  quality_control:
+    min_permanent_note_length: 200
+    max_permanent_note_length: 1000
+    connection_validation: true
+    
+  maintenance_schedules:
+    daily: ["content_classification"]
+    weekly: ["structure_maintenance", "connection_review"]
+    monthly: ["index_management", "system_health_check"]
+    
+# AI Model Instructions
+ai_instructions:
+  permanent_note_creation:
+    principles:
+      - "One concept per note"
+      - "Atomic and self-contained"
+      - "Written in your own words"
+      - "Timeless and context-independent"
+    
+  connection_generation:
+    criteria:
+      - "Conceptual similarity"
+      - "Causal relationships" 
+      - "Contradictory viewpoints"
+      - "Supporting evidence"
+      - "Practical applications"
+    
+  quality_metrics:
+    - "Clarity of core idea"
+    - "Strength of connections"
+    - "Practical applicability"
+    - "Uniqueness of insight"
