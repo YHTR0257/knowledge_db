@@ -39,10 +39,10 @@
 - 部下・上司双方から頼られる存在
 
 ## 関連する永続ノート
-- [[My Skill Set]]
-- [[Skill Evaluation]]
-- [[Task management]]
-- [[quants]]
+- [[202409102361-my-skill-portfolio]]
+- [[202409102356-skill-evaluation-framework]]
+- [[202409102363-task-management-skills]]
+- [[202409102362-quants-career-path]]
 
 ## 関連する構造ノート
 - [[ST-career-development]] - 全体的なキャリア戦略

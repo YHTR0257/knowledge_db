@@ -21,20 +21,20 @@
 3. 収入が比較的高い条件
 
 ## 関連する永続ノート
-- [[Career Path]]
-- [[Strategy of job hunting]]
-- [[Life Story]]
-- [[Characteristics of me]]
-- [[What is the job?]]
-- [[Skill Evaluation]]
+- [[202409102353-career-path-vision]]
+- [[202409102354-job-hunting-strategy]]
+- [[202409102355-life-story-framework]]
+- [[202409102359-personal-characteristics]]
+- [[202409110000-job-comparison-framework]]
+- [[202409102356-skill-evaluation-framework]]
 
 ## 関連する構造ノート
 - [[ST-material-informatics]] - 専門分野としてのMI
 - [[ST-data-science-career]] - データサイエンス職種
 
 ## 参考企業・組織
-- Citrine Informatics
-- AGC
+- [[202409102357-citrine-informatics]]
+- [[202409102358-agc-materials]]
 - Panasonic
 - 旭化成
 - HITACHI
