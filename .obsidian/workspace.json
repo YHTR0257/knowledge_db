@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "9e4d874c88edbaab",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a248438424b7fa00",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
         "id": "0a515b14a468ebc2",
         "type": "tabs",
         "children": [
@@ -27,10 +11,14 @@
             "id": "9f7ca03688d8264d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "20-Permanent-Notes/202508311215-electronic-structure-macro-property-bridging.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "202508311215-electronic-structure-macro-property-bridging"
             }
           }
         ]
@@ -85,12 +73,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "0f0a8e4890332b0f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1bf097b3f5219192",
@@ -178,10 +176,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "a248438424b7fa00",
+  "active": "237e40513673c877",
   "lastOpenFiles": [
-    "Welcome.md",
+    "30-Structure-Notes/ST-career-development.md",
+    "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1/Career cffd39c6f305424a8b86e74b3a2e6723/自己分析 1c96a811ac9580c48845e7b0a3436814.html",
+    "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1/Career cffd39c6f305424a8b86e74b3a2e6723.html",
+    "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1/Career cffd39c6f305424a8b86e74b3a2e6723",
+    "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1",
+    "20-Permanent-Notes/202508311200-elastic-property-inverse-design-principle.md",
+    "50-Project-Notes/active/PRJ-20250831-master-thesis-elastic-metamaterial.md",
+    "20-Permanent-Notes/202508311215-electronic-structure-macro-property-bridging.md",
+    "20-Permanent-Notes/202508311230-machine-learning-materials-design.md",
+    "20-Permanent-Notes/202508311245-metamaterial-design-theory.md",
     "90-Meta/workflows/directory-structure-guidelines.md",
+    "DFT計算精度管理.md",
+    "20-Permanent-Notes/202508311215-electronic-structure-macro-property-bridging.md.tmp.35451.1756609992936",
+    "2025-08-31.md",
+    "Untitled.canvas",
+    "40-Index-Notes/master-index/IDX-projects.md",
+    "00-Inbox/master_thesis.md",
+    "00-Inbox/共通部.md",
+    "00-Inbox/SIE_個別部.md",
+    "00-Inbox/SCM.md",
+    "00-Inbox/NTTDATA.md",
+    "Welcome.md",
     "10-Literature-Notes/books/LN-20250831-zettelkasten-methodology-overview.md",
     "10-Literature-Notes/LN-20250831-zettelkasten-methodology-overview.md",
     "00-Inbox/zettel_kasten.md",
@@ -196,11 +214,6 @@
     "90-Meta/templates",
     "90-Meta/workflows",
     "90-Meta",
-    "50-Project-Notes/templates",
-    "50-Project-Notes/completed",
-    "50-Project-Notes/active",
-    "40-Index-Notes/master-index",
-    "40-Index-Notes/methods",
     "project.md"
   ]
 }
