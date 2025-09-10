@@ -11,10 +11,14 @@
             "id": "9f7ca03688d8264d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "30-Structure-Notes/ST-software-architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ST-software-architecture"
             }
           }
         ]
@@ -174,6 +178,15 @@
   },
   "active": "9f7ca03688d8264d",
   "lastOpenFiles": [
+    "50-Project-Notes/completed/PRJ-20240930-nttdata-internship.md",
+    "40-Index-Notes/master-index/project-note-template.md",
+    "40-Index-Notes/master-index/PRJ-20240930-nttdata-internship.md",
+    "40-Index-Notes/master-index/IDX-people.md",
+    "40-Index-Notes/master-index/IDX-methods.md",
+    "40-Index-Notes/master-index/IDX-concepts.md",
+    "30-Structure-Notes/ST-material-informatics.md",
+    "30-Structure-Notes/ST-data-science-career.md",
+    "30-Structure-Notes/ST-career-development.md",
     "30-Structure-Notes/ST-material-informatics.md.tmp.45067.1757547291761",
     "30-Structure-Notes/ST-material-informatics.md.tmp.45067.1757547286111",
     "30-Structure-Notes/ST-data-science-career.md.tmp.45067.1757547280172",
@@ -192,25 +205,16 @@
     "30-Structure-Notes/ST-data-science-career.md.tmp.45067.1757517194471",
     "30-Structure-Notes/ST-career-development.md.tmp.45067.1757517185201",
     "20-Permanent-Notes/202409110003-nttdata-company-analysis.md",
-    "30-Structure-Notes/ST-data-science-career.md",
     "50-Project-Notes/active/PRJ-20250831-master-thesis-elastic-metamaterial.md",
     "20-Permanent-Notes/202409102354-job-hunting-strategy.md",
-    "30-Structure-Notes/ST-career-development.md",
     "20-Permanent-Notes/202409102353-career-path-vision.md",
     "30-Structure-Notes/ST-data-science-career.md.tmp.45067.1757516908401",
     "30-Structure-Notes/ST-material-informatics.md.tmp.45067.1757516889220",
-    "30-Structure-Notes/ST-career-development.md.tmp.45067.1757516877108",
     "20-Permanent-Notes/202409102362-quants-career-path.md",
     "20-Permanent-Notes/202409102363-task-management-skills.md",
     "20-Permanent-Notes/202409102361-my-skill-portfolio.md",
     "20-Permanent-Notes/202409102358-agc-materials.md",
     "20-Permanent-Notes/202409102357-citrine-informatics.md",
-    "20-Permanent-Notes/202409102356-skill-evaluation-framework.md",
-    "20-Permanent-Notes/202409110000-job-comparison-framework.md",
-    "20-Permanent-Notes/202409102359-personal-characteristics.md",
-    "20-Permanent-Notes/202409102355-life-story-framework.md",
-    "Skill Evaluation.md",
-    "20-Permanent-Notes/202508311215-electronic-structure-macro-property-bridging.md",
-    "30-Structure-Notes/ST-material-informatics.md"
+    "20-Permanent-Notes/202409102356-skill-evaluation-framework.md"
   ]
 }
