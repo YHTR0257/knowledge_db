@@ -80,8 +80,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,6 +174,21 @@
   },
   "active": "9f7ca03688d8264d",
   "lastOpenFiles": [
+    "30-Structure-Notes/ST-material-informatics.md.tmp.45067.1757547291761",
+    "30-Structure-Notes/ST-material-informatics.md.tmp.45067.1757547286111",
+    "30-Structure-Notes/ST-data-science-career.md.tmp.45067.1757547280172",
+    "20-Permanent-Notes/202409110005-ensemble-learning-methods.md",
+    "00-Inbox/ensemble_learning.md",
+    "20-Permanent-Notes/202409102361-my-skill-portfolio.md.tmp.45067.1757547185793",
+    "30-Structure-Notes/ST-data-science-career.md.tmp.45067.1757547178947",
+    "30-Structure-Notes/ST-software-architecture.md",
+    "20-Permanent-Notes/202409110004-rest-api-architecture.md",
+    "00-Inbox/RESTAPI.md",
+    "2025-09-11.md",
+    "Untitled.canvas",
+    "Untitled.base",
+    "Untitled 1.canvas",
+    "20-Permanent-Notes/202409102360-self-reflection-methods.md",
     "30-Structure-Notes/ST-data-science-career.md.tmp.45067.1757517194471",
     "30-Structure-Notes/ST-career-development.md.tmp.45067.1757517185201",
     "20-Permanent-Notes/202409110003-nttdata-company-analysis.md",
@@ -197,20 +211,6 @@
     "20-Permanent-Notes/202409102355-life-story-framework.md",
     "Skill Evaluation.md",
     "20-Permanent-Notes/202508311215-electronic-structure-macro-property-bridging.md",
-    "30-Structure-Notes/ST-data-science-career.md.tmp.45067.1757516416201",
-    "30-Structure-Notes/ST-material-informatics.md",
-    "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1/Career cffd39c6f305424a8b86e74b3a2e6723/自己分析 1c96a811ac9580c48845e7b0a3436814.html",
-    "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1/Career cffd39c6f305424a8b86e74b3a2e6723.html",
-    "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1/Career cffd39c6f305424a8b86e74b3a2e6723",
-    "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1",
-    "20-Permanent-Notes/202508311200-elastic-property-inverse-design-principle.md",
-    "20-Permanent-Notes/202508311230-machine-learning-materials-design.md",
-    "20-Permanent-Notes/202508311245-metamaterial-design-theory.md",
-    "90-Meta/workflows/directory-structure-guidelines.md",
-    "DFT計算精度管理.md",
-    "20-Permanent-Notes/202508311215-electronic-structure-macro-property-bridging.md.tmp.35451.1756609992936",
-    "2025-08-31.md",
-    "Untitled.canvas",
-    "40-Index-Notes/master-index/IDX-projects.md"
+    "30-Structure-Notes/ST-material-informatics.md"
   ]
 }
