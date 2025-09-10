@@ -44,10 +44,12 @@
 - [[202409102363-task-management-skills]]
 - [[202409102362-quants-career-path]]
 - [[202409110003-nttdata-company-analysis]]
+- [[202409110005-ensemble-learning-methods]]
 
 ## 関連する構造ノート
 - [[ST-career-development]] - 全体的なキャリア戦略
 - [[ST-material-informatics]] - 専門分野との融合
+- [[ST-software-architecture]] - 技術実装スキル
 
 ## 応用分野
 - Material Informatics
