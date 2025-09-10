@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-Permanent-Notes/202508311215-electronic-structure-macro-property-bridging.md",
+                "file": "30-Structure-Notes/ST-career-development.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202508311215-electronic-structure-macro-property-bridging"
+              "title": "ST-career-development"
             }
           }
         ]
@@ -176,19 +176,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "237e40513673c877",
+  "active": "9f7ca03688d8264d",
   "lastOpenFiles": [
+    "30-Structure-Notes/ST-data-science-career.md.tmp.45067.1757516908401",
+    "30-Structure-Notes/ST-material-informatics.md.tmp.45067.1757516889220",
+    "30-Structure-Notes/ST-career-development.md.tmp.45067.1757516877108",
+    "20-Permanent-Notes/202409102362-quants-career-path.md",
+    "20-Permanent-Notes/202409102363-task-management-skills.md",
+    "20-Permanent-Notes/202409102361-my-skill-portfolio.md",
+    "20-Permanent-Notes/202409102358-agc-materials.md",
+    "20-Permanent-Notes/202409102357-citrine-informatics.md",
+    "20-Permanent-Notes/202409102356-skill-evaluation-framework.md",
+    "20-Permanent-Notes/202409110000-job-comparison-framework.md",
+    "20-Permanent-Notes/202409102359-personal-characteristics.md",
+    "20-Permanent-Notes/202409102355-life-story-framework.md",
+    "20-Permanent-Notes/202409102354-job-hunting-strategy.md",
+    "20-Permanent-Notes/202409102353-career-path-vision.md",
+    "Skill Evaluation.md",
+    "30-Structure-Notes/ST-career-development.md",
+    "20-Permanent-Notes/202508311215-electronic-structure-macro-property-bridging.md",
     "30-Structure-Notes/ST-data-science-career.md",
     "30-Structure-Notes/ST-data-science-career.md.tmp.45067.1757516416201",
     "30-Structure-Notes/ST-material-informatics.md",
-    "30-Structure-Notes/ST-career-development.md",
     "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1/Career cffd39c6f305424a8b86e74b3a2e6723/自己分析 1c96a811ac9580c48845e7b0a3436814.html",
     "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1/Career cffd39c6f305424a8b86e74b3a2e6723.html",
     "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1/Career cffd39c6f305424a8b86e74b3a2e6723",
     "00-Inbox/ExportBlock-bf888314-7959-490b-ab35-e39c968e21ce-Part-1",
     "20-Permanent-Notes/202508311200-elastic-property-inverse-design-principle.md",
     "50-Project-Notes/active/PRJ-20250831-master-thesis-elastic-metamaterial.md",
-    "20-Permanent-Notes/202508311215-electronic-structure-macro-property-bridging.md",
     "20-Permanent-Notes/202508311230-machine-learning-materials-design.md",
     "20-Permanent-Notes/202508311245-metamaterial-design-theory.md",
     "90-Meta/workflows/directory-structure-guidelines.md",
@@ -198,22 +213,7 @@
     "Untitled.canvas",
     "40-Index-Notes/master-index/IDX-projects.md",
     "00-Inbox/master_thesis.md",
-    "00-Inbox/共通部.md",
-    "00-Inbox/SIE_個別部.md",
-    "00-Inbox/SCM.md",
-    "00-Inbox/NTTDATA.md",
-    "Welcome.md",
-    "10-Literature-Notes/books/LN-20250831-zettelkasten-methodology-overview.md",
-    "10-Literature-Notes/LN-20250831-zettelkasten-methodology-overview.md",
-    "00-Inbox/zettel_kasten.md",
-    "CLAUDE.md",
     "90-Meta/workflows/agent_rules.yml",
-    "90-Meta/workflows/workflow.md",
-    "90-Meta/templates/literature_note.md",
-    "90-Meta/templates/index_note.md",
-    "90-Meta/templates/structure_note.md",
-    "90-Meta/statistics",
-    "90-Meta/templates",
-    "90-Meta/workflows"
+    "90-Meta/statistics"
   ]
 }
