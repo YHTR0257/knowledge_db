@@ -43,6 +43,7 @@
 - [[202409102356-skill-evaluation-framework]]
 - [[202409102363-task-management-skills]]
 - [[202409102362-quants-career-path]]
+- [[202409110003-nttdata-company-analysis]]
 
 ## 関連する構造ノート
 - [[ST-career-development]] - 全体的なキャリア戦略
@@ -52,6 +53,7 @@
 - Material Informatics
 - 金融・Quants領域
 - 製造業での品質管理・プロセス最適化
+- サプライチェーン最適化・システム統合
 - 研究開発支援システム
 
 ## スキル開発優先度
@@ -63,4 +65,4 @@
 ## メタデータ
 - 作成日：2024-09-10
 - 最終更新：2024-09-10
-- 関連タグ：#data-science #career #analytics #machine-learning
+- 関連タグ： #data-science #career #analytics #machine-learning

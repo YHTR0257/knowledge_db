@@ -35,6 +35,7 @@
 ## 参考企業・組織
 - [[202409102357-citrine-informatics]]
 - [[202409102358-agc-materials]]
+- [[202409110003-nttdata-company-analysis]]
 - Panasonic
 - 旭化成
 - HITACHI
