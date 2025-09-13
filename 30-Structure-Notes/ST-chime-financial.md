@@ -12,7 +12,7 @@
 - **Stock Symbol**: CHYM (NASDAQ, since June 2025)
 
 ### Business Model
-- **Primary Model**: [[202509111200-banking-as-a-service-model]]
+- **Primary Model**: ![[202509111200-banking-as-a-service-model#Core Idea]]
 - **Revenue Source**: [[202509111201-interchange-fee-revenue-model]] (72-80% of revenue)
 - **Target Market**: $35K-$65K income households, expanding to $200K
 - **Banking Partners**: The Bancorp Bank, Stride Bank (FDIC-insured)
