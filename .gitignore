@@ -1,1 +1,11 @@
 /00-Inbox
+
+# Obsidian
+.obsidian/cache
+.obsidian/
+
+# macOS
+.DS_Store
+
+# Images
+*.png
