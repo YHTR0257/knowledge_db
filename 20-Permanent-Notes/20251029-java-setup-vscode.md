@@ -8,20 +8,38 @@
 
 ### 1.1. JDKのインストール状況の確認
 
-ターミナルを開き、以下のコマンドでJDKがインストールされているか確認します。
+コマンドプロンプトやPowerShellなどのターミナルを開き、以下のコマンドでJDKがインストールされているか確認します。
 
 ```bash
 java -version
 ```
 
-インストールされていない場合、または特定のバージョンが必要な場合は、以下のいずれかからダウンロードしてインストールしてください。
+インストールされていない場合、または特定のバージョンが必要な場合は、次の手順に進みます。現在の推奨バージョンは、長期サポート（LTS）版である **Java 21** です。
 
-- [Oracle JDK](https://www.oracle.com/java/technologies/downloads/): 商用利用の場合はライセンスに注意が必要です。
-- [OpenJDK](https://adoptium.net/): Eclipse Adoptiumが提供するオープンソース版。個人開発や多くの商用利用で推奨されます。
+### 1.2. JDKのインストール (Windows)
 
-現在の推奨バージョンは、長期サポート（LTS）版である **Java 21** です。
+1.  **インストーラーのダウンロード**:
+    *   [OpenJDK (Adoptium)](https://adoptium.net/) にアクセスします。
+    *   **Temurin 21 (LTS)** を選択し、OSが **Windows**, Architectureが **x64** になっていることを確認します。
+    *   `.msi` 形式のインストーラーをダウンロードします。
 
-### 1.2. jenvによる複数バージョンのJDK管理 (推奨)
+2.  **インストール**:
+    *   ダウンロードした `.msi` ファイルを実行して、インストールウィザードを開始します。
+    *   ウィザードを進めていくと、インストール項目のカスタマイズ画面が表示されます。ここで以下の2つの項目がインストール対象に含まれていることを確認してください。これにより、環境変数の設定が自動で行われ、非常に便利です。
+        *   **`Add to PATH`**: `java`コマンドをどのディレクトリからでも実行できるようにします。
+        *   **`Set JAVA_HOME variable`**: Javaを利用する多くの開発ツールが必要とする`JAVA_HOME`環境変数を設定します。
+    *   ウィザードの指示に従い、インストールを完了します。
+3.  **インストール確認**:
+    *   **新しい**ターミナルを開き（重要：インストーラー実行前から開いていたターミナルは環境変数の変更を認識しません）、以下のコマンドを実行します。
+    ```bash
+    # Javaのバージョンが表示されることを確認
+    java -version
+
+    # JAVA_HOMEのパスが表示されることを確認
+    echo %JAVA_HOME%
+    ```
+
+### 1.3. jenvによる複数バージョンのJDK管理 (macOS/Linux 推奨)
 
 `jenv` は、複数のJDKバージョンを簡単に切り替えるためのツールです。プロジェクトごとに異なるJavaバージョンを使用する場合に非常に便利です。
 
@@ -101,11 +119,29 @@ sudo apt install maven
 ```
 
 **Windows**
-1. [Apache Maven公式サイト](https://maven.apache.org/download.cgi)から最新のバイナリ（`...-bin.zip`）をダウンロードします。
-2. 任意のディレクトリに解凍します（例：`C:\Program Files\Apache\maven`）。
-3. システムの環境変数を設定します：
-    - `MAVEN_HOME` という新しい変数を作成し、解凍したディレクトリのパス（`C:\Program Files\Apache\maven\apache-maven-3.9.x`）を設定します。
-    - 既存の `Path` 変数に `%MAVEN_HOME%\bin` を追加します。
+
+1.  **バイナリのダウンロード**:
+    *   [Apache Maven公式サイト](https://maven.apache.org/download.cgi)にアクセスします。
+    *   「Binary zip archive」（例: `apache-maven-3.9.x-bin.zip`）をダウンロードします。
+
+2.  **ファイルの解凍**:
+    *   ダウンロードした `.zip` ファイルを任意の場所に解凍します。開発ツールは `C:\tools` のようなスペースを含まないパスに置くのが一般的です（例: `C:\tools\apache-maven-3.9.6`）。
+
+3.  **環境変数の設定**:
+    *   `Win + R` を押し `sysdm.cpl` と入力して「システムのプロパティ」を開きます。
+    *   「詳細設定」タブ → 「環境変数...」ボタンをクリックします。
+    *   **システム環境変数** のセクションで「新規...」をクリックします。
+        *   変数名: `MAVEN_HOME`
+        *   変数値: Mavenを解凍したディレクトリのパス（例: `C:\tools\apache-maven-3.9.6`）
+    *   **システム環境変数** のリストから `Path` を選択し、「編集...」をクリックします。
+        *   「新規」をクリックし、`%MAVEN_HOME%\bin` と入力して追加します。
+        *   OKを押してすべてのダイアログを閉じます。
+![[スクリーンショット 2025-10-29 21.47.26 1.png]]
+4.  **インストール確認**:
+    *   **新しい**ターミナルを開き、以下のコマンドを実行してバージョン情報が表示されれば成功です。
+    ```bash
+    mvn -version
+    ```
 
 ### 2.2. インストール確認
 
@@ -115,14 +151,12 @@ sudo apt install maven
 mvn -version
 ```
 
-期待されるアウトプット例：
-```
-Apache Maven 3.9.11 (3e54c93a704957b63ee3494413a2b544fd3d825b)
-Maven home: /opt/homebrew/Cellar/maven/3.9.11/libexec
-Java version: 21.0.4, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@21/21.0.4/libexec/openjdk.jdk/Contents/Home
-Default locale: ja_JP, platform encoding: UTF-8
-OS name: "mac os x", version: "15.6.1", arch: "aarch64", family: "mac"
-```
+---
+
+Mavenのより詳細な概念（POM, ライフサイクルなど）については、以下のノートで解説しています。
+
+![[20251029-maven]]
+
 
 ## 3. VSCode拡張機能のインストール
 
