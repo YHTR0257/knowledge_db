@@ -34,19 +34,19 @@
 - 材料開発効率の向上
 
 ## 関連する永続ノート
-- [[202409102357-citrine-informatics]]
-- [[202409102358-agc-materials]]
-- [[202409102353-career-path-vision]]
-- [[202409102361-my-skill-portfolio]]
-- [[202409110005-ensemble-learning-methods]]
+- [[P240910-citrine-informatics]]
+- [[P240910-agc-materials]]
+- [[P240910-career-path-vision]]
+- [[P240910-my-skill-portfolio]]
+- [[P240911-ensemble-learning-methods]]
 
 ## 関連する構造ノート
 - [[ST-career-development]] - キャリア開発戦略
 - [[ST-data-science-career]] - データサイエンス職種
 
 ## 参考企業・事例
-- [[202409102357-citrine-informatics]] - MIプラットフォーム企業
-- [[202409102358-agc-materials]] - ガラス・化学メーカーでのMI活用
+- [[P240910-citrine-informatics]] - MIプラットフォーム企業
+- [[P240910-agc-materials]] - ガラス・化学メーカーでのMI活用
 - Panasonic - 電機メーカーでの材料開発
 - 旭化成 - 化学メーカーでの研究開発
 - HITACHI - 総合電機でのシステム開発

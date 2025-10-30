@@ -54,9 +54,9 @@ This strategy is particularly effective in normal (upward-sloping) yield curve e
 - What is the optimal holding period for maximizing rolldown benefits?
 
 ## Related Concepts
-- [[202509110932-yield-curve]] - foundational concept for rolldown strategy
-- [[202509110930-government-bonds]] - primary securities used for rolldown
-- [[202509110938-interest-rate-risk]] - primary risk factor to manage
+- [[P250911-yield-curve]] - foundational concept for rolldown strategy
+- [[P250911-government-bonds]] - primary securities used for rolldown
+- [[P250911-interest-rate-risk]] - primary risk factor to manage
 
 ## Sources
 - government_bond.md (Inbox processing)

@@ -51,9 +51,9 @@ Yield curves are fundamental tools for understanding market sentiment, monetary 
 - What role do international capital flows play in domestic yield curve formation?
 
 ## Related Concepts
-- [[202509110930-government-bonds]] - underlying securities that form the yield curve
-- [[202509110934-inverted-yield-curve]] - specific warning signal configuration
-- [[202509110936-rolldown-effect]] - investment strategy based on curve shape
+- [[P250911-government-bonds]] - underlying securities that form the yield curve
+- [[P250911-inverted-yield-curve]] - specific warning signal configuration
+- [[P250911-rolldown-effect]] - investment strategy based on curve shape
 
 ## Sources
 - government_bond.md (Inbox processing)

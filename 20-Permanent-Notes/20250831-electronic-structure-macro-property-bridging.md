@@ -54,7 +54,7 @@ DFT計算で得られる原子レベルの電子構造情報（COBI、COHP、ELF
 - 非線形特性（塑性変形）への適用可能性は？
 
 ## 関連概念
-- [[202508311200-elastic-property-inverse-design-principle]] - 逆設計への応用
+- [[P250831-elastic-property-inverse-design-principle]] - 逆設計への応用
 - [[DFT計算精度管理]] - 電子構造計算の品質保証
 - [[マルチスケールモデリング]] - スケール間の情報伝達
 

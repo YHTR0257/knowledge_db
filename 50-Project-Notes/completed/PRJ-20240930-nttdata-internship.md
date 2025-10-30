@@ -47,8 +47,8 @@ NTT DATAのサプライチェーンユニットでのインターンシップを
 - [[ST-software-architecture]]
 - [[ST-data-science-career]]
 ### 恒久ノート
-- [[202409110003-nttdata-company-analysis]]
-- [[202409110004-rest-api-architecture]]
+- [[P240911-nttdata-company-analysis]]
+- [[P240911-rest-api-architecture]]
 ### インデックスノート
 - [[IDX-projects]]
 - [[IDX-people]]

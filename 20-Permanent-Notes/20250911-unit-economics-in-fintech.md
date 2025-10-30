@@ -51,8 +51,8 @@ Critics argue that early-stage unit economics can be misleading due to promotion
 - How should fintech companies account for regulatory costs in their unit economics?
 
 ## Related Concepts
-- [[202509111201-interchange-fee-revenue-model]] - Primary driver of ARPU in many fintech business models
-- [[202509111202-neo-banking-disruption-strategy]] - Strategy dependent on superior unit economics for competitive advantage
+- [[P250911-interchange-fee-revenue-model]] - Primary driver of ARPU in many fintech business models
+- [[P250911-neo-banking-disruption-strategy]] - Strategy dependent on superior unit economics for competitive advantage
 
 ## Sources
 - Chime Financial企業分析：包括的報告書

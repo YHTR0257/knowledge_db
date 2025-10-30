@@ -51,8 +51,8 @@ Critics argue that technology-based inclusion may create new forms of digital di
 - How do we measure the true impact of financial inclusion initiatives?
 
 ## Related Concepts
-- [[202509111202-neo-banking-disruption-strategy]] - Business strategy enabling financial inclusion
-- [[202509111200-banking-as-a-service-model]] - Infrastructure reducing barriers to financial service provision
+- [[P250911-neo-banking-disruption-strategy]] - Business strategy enabling financial inclusion
+- [[P250911-banking-as-a-service-model]] - Infrastructure reducing barriers to financial service provision
 
 ## Sources
 - Chime Financial企業分析：包括的報告書

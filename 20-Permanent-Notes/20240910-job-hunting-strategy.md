@@ -26,6 +26,9 @@ source_type: personal-planning
 - 専門性：Material Informaticsとデータサイエンスの融合
 - 目標業界：情報通信業、鉄道、電力、自動車製造業、重工業、金属関連産業
 
+Value
+
+
 ## Examples
 Citrine Informatics、AGC、Panasonic、旭化成、HITACHIなどMIやデータサイエンスを活用する企業への戦略的アプローチ。
 
@@ -49,10 +52,10 @@ Citrine Informatics、AGC、Panasonic、旭化成、HITACHIなどMIやデータ�
 - 研究経験を実務にどう結びつけるか？
 
 ## Related Concepts
-- [[202409102353-career-path-vision]] - 長期的キャリア計画
-- [[202409102357-citrine-informatics]] - 参考企業事例
-- [[202409102358-agc-materials]] - 参考企業事例
-- [[202409102359-personal-characteristics]] - 自己分析
+- [[P240910-career-path-vision]] - 長期的キャリア計画
+- [[P240910-citrine-informatics]] - 参考企業事例
+- [[P240910-agc-materials]] - 参考企業事例
+- [[P240910-personal-characteristics]] - 自己分析
 
 ## Sources
 - Personal career planning document

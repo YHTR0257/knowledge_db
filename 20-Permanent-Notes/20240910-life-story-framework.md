@@ -47,9 +47,9 @@ Material Informaticsへの興味が大学の研究室選択から就職活動ま
 - 他者からの評価とのギャップをどう調整するか？
 
 ## Related Concepts
-- [[202409102359-personal-characteristics]] - 個人特性の分析
-- [[202409102353-career-path-vision]] - キャリア計画との統合
-- [[202409102360-self-reflection-methods]] - 自己省察の手法
+- [[P240910-personal-characteristics]] - 個人特性の分析
+- [[P240910-career-path-vision]] - キャリア計画との統合
+- [[P240910-self-reflection-methods]] - 自己省察の手法
 
 ## Sources
 - Career planning documentation

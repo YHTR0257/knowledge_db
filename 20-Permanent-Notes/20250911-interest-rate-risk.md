@@ -54,9 +54,9 @@ Understanding interest rate risk is fundamental for bond investors, as it affect
 - What role does inflation expectations play in interest rate risk assessment?
 
 ## Related Concepts
-- [[202509110930-government-bonds]] - primary securities subject to interest rate risk
-- [[202509110936-rolldown-effect]] - strategy that can mitigate rate risk
-- [[202509110940-zero-coupon-bonds]] - securities with highest rate sensitivity
+- [[P250911-government-bonds]] - primary securities subject to interest rate risk
+- [[P250911-rolldown-effect]] - strategy that can mitigate rate risk
+- [[P250911-zero-coupon-bonds]] - securities with highest rate sensitivity
 
 ## Sources
 - government_bond.md (Inbox processing)

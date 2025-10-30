@@ -53,9 +53,9 @@ confidence: medium
 - **Validation Status**: ツール存在は確認可能、性能比較データは未検証
 
 ## Generated Permanent Notes
-- [[202510081127-mesh-repair-algorithms]] - アルゴリズム理論
-- [[202510081128-mesh-repair-python-libraries]] - Python実装ライブラリ
-- [[202510081129-mesh-repair-software-tools]] - GUIツール比較
+- [[P251008-mesh-repair-algorithms]] - アルゴリズム理論
+- [[P251008-mesh-repair-python-libraries]] - Python実装ライブラリ
+- [[P251008-mesh-repair-software-tools]] - GUIツール比較
 
 ## Follow-up Research Needed
 - 各アルゴリズムの計算量・メモリ使用量の定量比較

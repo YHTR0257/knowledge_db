@@ -64,10 +64,10 @@ source_type: personal-reflection
 - トップダウンとサポート型の最適バランス
 
 ## Related Concepts
-- [[20250921001-moderate-belonging-needs]] - 居場所への適度な欲求
-- [[20250921002-essential-problem-solving]] - 本質的問題解決との関連
-- [[20241201003-personality-career-fit]] - パーソナリティ特性との対応
-- [[202409102359-personal-characteristics]] - 個人特性の具体的発現
+- [[P250921-moderate-belonging-needs]] - 居場所への適度な欲求
+- [[P250921-essential-problem-solving]] - 本質的問題解決との関連
+- [[P241201-personality-career-fit]] - パーソナリティ特性との対応
+- [[P240910-personal-characteristics]] - 個人特性の具体的発現
 
 ## Sources
 - 個人の価値観分析・自己省察

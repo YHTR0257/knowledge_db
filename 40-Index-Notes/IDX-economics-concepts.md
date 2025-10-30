@@ -6,8 +6,8 @@
 ## 核となる理論・概念
 
 ### 労働経済学
-- [[20241201004-human-capital-theory]] - 人的資本理論と教育投資
-- [[20241201005-career-signaling-theory]] - シグナリング理論
+- [[P241201-human-capital-theory]] - 人的資本理論と教育投資
+- [[P241201-career-signaling-theory]] - シグナリング理論
 - 労働市場の需給バランス
 - 職業間賃金格差
 
@@ -65,7 +65,7 @@
 - データ分析・統計学
 
 ## 実践的応用例
-- 企業評価・投資判断：[[202409102357-citrine-informatics]], [[202409102358-agc-materials]]
+- 企業評価・投資判断：[[P240910-citrine-informatics]], [[P240910-agc-materials]]
 - キャリア投資分析：[[ST-material-informatics]], [[ST-data-science-career]]
 - 市場分析・競争戦略
 

@@ -48,9 +48,9 @@ Material Informaticsとデータサイエンス領域でのキャリア構築に
 - 業界標準との比較方法は？
 
 ## Related Concepts
-- [[202409102361-my-skill-portfolio]] - 個人スキルセット
-- [[202409102353-career-path-vision]] - キャリア目標との整合
-- [[202409110000-job-comparison-framework]] - 職種要求との比較
+- [[P240910-my-skill-portfolio]] - 個人スキルセット
+- [[P240910-career-path-vision]] - キャリア目標との整合
+- [[P240911-job-comparison-framework]] - 職種要求との比較
 
 ## Sources
 - Self-assessment exercises

@@ -52,9 +52,9 @@ REST (Representational State Transfer) は、システム間の相互作用を�
 - 大規模システムでのRESTful設計のベストプラクティスは？
 
 ## Related Concepts
-- [[202409110005-crud-operations]] - データ操作の基本概念
-- [[202409110003-nttdata-company-analysis]] - システム開発での実践
-- [[202409102361-my-skill-portfolio]] - 技術スキルセット
+- [[P240911-crud-operations]] - データ操作の基本概念
+- [[P240911-nttdata-company-analysis]] - システム開発での実践
+- [[P240910-my-skill-portfolio]] - 技術スキルセット
 
 ## Sources
 - LogicMonitor blog: REST vs CRUD concepts

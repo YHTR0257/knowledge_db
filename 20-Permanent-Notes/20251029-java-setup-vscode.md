@@ -120,6 +120,97 @@ sudo apt install maven
 
 **Windows**
 
+WindowsへのMavenのインストール手順を説明します。
+
+#### 方法1: Chocolatey を使う（推奨・簡単）
+
+##### Chocolateyのインストール
+
+PowerShellを**管理者権限**で開いて実行：
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+##### Mavenのインストール
+
+```powershell
+choco install maven
+```
+
+##### 確認
+
+```bash
+mvn -version
+```
+
+以下のような出力が表示されればOK：
+
+```
+Apache Maven 3.9.9 (...)
+Maven home: C:\Program Files\Apache\Maven\apache-maven-3.9.9
+Java version: 21.0.x, vendor: Eclipse Adoptium
+Java home: C:\Program Files\Eclipse Adoptium\jdk-21.0.x-hotspot
+Default locale: ja_JP, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+```
+
+#### JAVA_HOMEの確認
+
+```cmd
+echo %JAVA_HOME%
+java -version
+```
+
+---
+
+## トラブルシューティング
+
+- エラー1: 'mvn' は、内部コマンドまたは外部コマンド...として認識されていません
+  - **原因：** Pathが正しく設定されていない
+
+**解決方法：**
+1. コマンドプロンプトを**再起動**
+2. 環境変数のPathに `%MAVEN_HOME%\bin` が追加されているか確認
+3. 手動で確認：
+   ```cmd
+   dir "C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin\mvn.cmd"
+   ```
+
+- エラー2: JAVA_HOME is not set
+  - **原因：** JAVA_HOME環境変数が設定されていない
+
+**解決方法：**
+1. JDKのインストール場所を確認
+2. JAVA_HOME環境変数を設定（上記のステップ4参照）
+3. コマンドプロンプトを再起動
+
+### エラー3: Java versionが表示されない
+
+**解決方法：**
+```cmd
+# JDKの場所を探す
+where java
+
+# JAVA_HOMEを正しく設定
+setx JAVA_HOME "C:\Program Files\Eclipse Adoptium\jdk-21.0.x-hotspot"
+```
+
+---
+
+## VSCodeでの確認
+
+VSCodeのターミナルで確認：
+
+```bash
+mvn -version
+java -version
+echo %JAVA_HOME%
+echo %MAVEN_HOME%
+```
+
+すべて正しく表示されれば、セットアップ完了です！
+
 1.  **バイナリのダウンロード**:
     *   [Apache Maven公式サイト](https://maven.apache.org/download.cgi)にアクセスします。
     *   「Binary zip archive」（例: `apache-maven-3.9.x-bin.zip`）をダウンロードします。

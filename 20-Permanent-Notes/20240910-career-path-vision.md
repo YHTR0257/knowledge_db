@@ -45,9 +45,9 @@ source_type: personal-planning
 - データサイエンススキルと材料工学の融合はどの程度市場価値があるか？
 
 ## Related Concepts
-- [[202409102354-job-hunting-strategy]] - 就職戦略の具体的手法
-- [[202409102355-material-informatics-career]] - MI専門性の発展
-- [[202409102356-skill-evaluation-framework]] - スキル評価体系
+- [[P240910-job-hunting-strategy]] - 就職戦略の具体的手法
+- [[P240910-material-informatics-career]] - MI専門性の発展
+- [[P240910-skill-evaluation-framework]] - スキル評価体系
 
 ## Sources
 - Personal career planning document (Notion export)

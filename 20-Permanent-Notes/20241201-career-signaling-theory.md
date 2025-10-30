@@ -54,10 +54,10 @@ source_type: theoretical-framework
 - AI採用時代のシグナル有効性変化
 
 ## Related Concepts
-- [[20241201004-human-capital-theory]] - 人的資本投資との関係
-- [[202409102354-job-hunting-strategy]] - 転職戦略への応用
+- [[P241201-human-capital-theory]] - 人的資本投資との関係
+- [[P240910-job-hunting-strategy]] - 転職戦略への応用
 - [[ST-career-development]] - キャリア戦略の一環としてのシグナリング
-- [[202409102356-skill-evaluation-framework]] - スキル評価とシグナル効果
+- [[P240910-skill-evaluation-framework]] - スキル評価とシグナル効果
 
 ## Sources
 - 経済学理論（スペンス、ロスチャイルド&スティグリッツ等）

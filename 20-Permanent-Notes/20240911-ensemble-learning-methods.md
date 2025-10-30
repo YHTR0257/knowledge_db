@@ -71,8 +71,8 @@ XGBoost・LightGBM
 - 小規模データセットでのアンサンブル効果は？
 
 ## Related Concepts
-- [[202409102361-my-skill-portfolio]] - 機械学習スキルの実践
-- [[202409110003-nttdata-company-analysis]] - 企業でのデータサイエンス活用
+- [[P240910-my-skill-portfolio]] - 機械学習スキルの実践
+- [[P240911-nttdata-company-analysis]] - 企業でのデータサイエンス活用
 - [[ST-material-informatics]] - MI分野での応用
 - [[202409110006-hyperparameter-optimization]] - パラメータ調整手法
 

@@ -10,12 +10,34 @@ deadline: 2025-06-30
 career_focus: core-industries-dx
 ---
 
-# Job Hunting Strategy: 日本の根幹産業DX専門家
-
+# Job Hunting Strategy: 日本の根幹産業に対するDX部隊の一員になる
+根幹産業：日本という国を背負っている産業群
+- 自動車製造業
+- 電子機器製造業
+- 医薬品製造業
+- 電力
+- ガス
+- 鉄道
+- 物流業
 ## 成し遂げたいこと
 
-「日本の根幹産業（製造・インフラ・小売）に対して、組織のコミュニケーションを活発化させたい」
-システムを用いて実現させたい。
+**先端技術を社会に実装して、埋もれた技術を有効活用したい**
+理由
+- 社会には解決すべき課題が山積しており、それに対しての技術も揃っている。しかし使い方を知る人が少ないために有効活用されていない現状がある。
+- ボトルネックとして、「専門技術すぎて使い方がわからない」が存在する
+- これを技術の立場から解決したい
+- 元々ICTに興味があり、技術としても身につけるようにしてきた。これを伸ばし、社会に対して還元したいと思う。
+元となる価値観
+- 根本的な課題解決に取り組みたい
+- 埋もれているのは勿体無い
+- 誰かの成果を広げたい
+原体験：
+- 
+
+**日本の根幹産業（製造・インフラ・小売）に対して、組織のコミュニケーションを活発化させたい**
+理由：
+価値観：
+原体験：
 
 ### 具体的なビジョン
 - **現場の声を経営層に届ける仕組み**: ボトムアップで課題を吸い上げ、経営判断に反映
@@ -28,12 +50,12 @@ career_focus: core-industries-dx
 - **機能**: 現場リーダーとメンバー、経営層間のコミュニケーション円滑化
 - **価値提供**: サポート型リーダーシップで他者の能力を最大化し、組織全体の最適化を実現
 
-![[20250921000-supportive-leadership-style#Core Idea]]
-![[20250921002-essential-problem-solving#Core Idea]]
+![[P250921-supportive-leadership-style#Core Idea]]
+![[P250921-essential-problem-solving#Core Idea]]
 
 ## SWOT分析
 
-![[20250921000-supportive-leadership-style#Key Points]]
+![[P250921-supportive-leadership-style#Key Points]]
 
 ### Strengths（強み）
 - **サポート型リーダーシップ**: 異なる立場の人々の意見調整・すり合わせ能力
@@ -77,11 +99,11 @@ career_focus: core-industries-dx
 
 **Core Value Proposition**:
 - 複雑・困難な問題解決 × 技術実装力 × 全体最適化思考
-- 現場の人を技術で輝かせるシステム開発者
+- 現場の人の持つアイデアを技術で実現し、現場の人を輝かせるシステム開発者
 
-![[20250921000-supportive-leadership-style#Core Idea]]
-![[20250921001-moderate-belonging-needs#Core Idea]]
-![[20250921002-essential-problem-solving#Core Idea]]
+![[P250921-supportive-leadership-style#Core Idea]]
+![[P250921-moderate-belonging-needs#Core Idea]]
+![[P250921-essential-problem-solving#Core Idea]]
 
 **Timeline**: 2024-12-01 → 2027-03-30（修士修了後就職）
 
@@ -97,6 +119,14 @@ career_focus: core-industries-dx
 4. **PO経験**: 現場要件定義・システム実装の実務経験
 5. **全体最適化思考**: 複雑なシステム・組織の最適化視点
 
+Target Market: 日本の根幹を担う産業
+
+製造業
+特に、自動車・電機
+電力
+ガス
+鉄道
+小売業
 ### Target Market Analysis
 
 **市場特性:**
@@ -157,7 +187,6 @@ career_focus: core-industries-dx
 ### Phase 1: 基盤準備（12-1月）
 **Portfolio Development:**
 - [ ] 根幹産業課題分析レポート作成
-- [ ] 現場業務改善提案書（PO経験基準)
 
 **Knowledge Building:**
 - [ ] 製造業DX事例研究（10社以上）
@@ -186,6 +215,8 @@ career_focus: core-industries-dx
 - [ ] 業界課題→技術解決のストーリー作成
 - [ ] 技術的深掘り質問対策
 - [ ] 現場理解・全体最適化事例準備
+- [ ] ES作成
+- [ ] 志望動機精緻化
 
 ### Phase 4: 選考・内定・意思決定（4-6月）
 **選考管理:**
@@ -203,15 +234,22 @@ career_focus: core-industries-dx
 
 ### 定性的目標
 - **Value Fit**: 全体最適化・現場支援の価値観適合
+	- 現場の切実な困りごとを解決する
+	- これから発生するであろう困りごとを解決する
+		- 多様なステークホルダーでのコミュニケーションの齟齬を解決する
 - **Challenge Level**: 複雑・困難問題に挑戦できる環境
 - **Growth Path**: 根幹産業DX専門家としてのキャリア形成
+	- 難しい問題を解決したい。変数が多く複雑な課題をじっくり解くことに取り組みたい。
 - **Impact**: 社会インフラ・産業基盤への貢献実感
+	- 多くの人に対して価値を届けたい
 
 ## Risk Management
 
 ### High Risk: 業界知識不足
 **対策**: 
 - 製造業・インフラ現場見学（大学経由）
+- 対象の企業への就職
+	- 業務を通して学ぶ
 - 業界専門書・レポート集中学習
 - 現役エンジニアとの情報交換
 
@@ -224,34 +262,34 @@ career_focus: core-industries-dx
 ### Low Risk: 複数内定時の意思決定
 **対策**:
 - 評価基準の事前明確化
-- [[20241201000-multi-criteria-decision-analysis]]活用
+- [[P241201-multi-criteria-decision-analysis]]活用
 - メンター・相談者確保
 
 ## Personal Philosophy Integration
 
 ### 価値観に基づく戦略設計
 
-![[20250921000-supportive-leadership-style#Applications]]
+![[P250921-supportive-leadership-style#Applications]]
 
 この価値観は特に以下の職務で発揮される：
 - プロジェクトマネジメントでの異部門調整
 - 現場と経営層のコミュニケーション橋渡し
 - システム開発における要件定義・ユーザーニーズ抽出
 
-![[20250921002-essential-problem-solving#Applications]]
+![[P250921-essential-problem-solving#Applications]]
 
 ## Related Knowledge Base
 
 ### Strategic Framework
 - [[PRJ-20241201-personal-career-analysis]] - 全体キャリア戦略
-- [[20241201006-personal-skills-inventory]] - 強み・スキル詳細
-- [[202409102354-job-hunting-strategy]] - 就活戦略一般論
+- [[P241201-personal-skills-inventory]] - 強み・スキル詳細
+- [[P240910-job-hunting-strategy]] - 就活戦略一般論
 
 ### Personal Philosophy
 - [[IDX-personal-philosophy]] - 価値観・哲学体系
-- [[20250921000-supportive-leadership-style]] - サポート型リーダーシップ
-- [[20250921001-moderate-belonging-needs]] - 適度な所属欲求
-- [[20250921002-essential-problem-solving]] - 本質的問題解決志向
+- [[P250921-supportive-leadership-style]] - サポート型リーダーシップ
+- [[P250921-moderate-belonging-needs]] - 適度な所属欲求
+- [[P250921-essential-problem-solving]] - 本質的問題解決志向
 
 ### Industry Research
 - 製造業DX事例研究
@@ -259,10 +297,15 @@ career_focus: core-industries-dx
 - 小売業オペレーション効率化
 
 ### Tools & Frameworks
-- [[20241201000-multi-criteria-decision-analysis]] - 企業選択
-- [[20241201005-career-signaling-theory]] - 自己アピール戦略
+- [[P241201-multi-criteria-decision-analysis]] - 企業選択
+- [[P241201-career-signaling-theory]] - 自己アピール戦略
 
 ## Monthly Milestones
+11月
+- [ ] 早期選考応募
+- 日本IBM
+- NTTDATA
+- MUFG
 
 **12月（基盤準備）:**
 - [ ] ポートフォリオ素材作成
@@ -291,6 +334,6 @@ career_focus: core-industries-dx
 
 ---
 
-**Project Start**: 2024-12-01
-**Target Completion**: 2025-06-30
+**Project Start**: 2025-03-01
+**Target Completion**: 2026-06-30
 **Review Frequency**: 週次（進捗）、月次（戦略）

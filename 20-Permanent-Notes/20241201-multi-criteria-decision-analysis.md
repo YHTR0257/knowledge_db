@@ -51,8 +51,8 @@ source_type: theoretical-framework
 - 時間変化する基準をどう扱うか
 
 ## Related Concepts
-- [[202409110000-job-comparison-framework]] - キャリア選択への応用
-- [[20241201001-risk-assessment-frameworks]] - リスク評価との組み合わせ
+- [[P240911-job-comparison-framework]] - キャリア選択への応用
+- [[P241201-risk-assessment-frameworks]] - リスク評価との組み合わせ
 - [[ST-career-development]] - キャリア開発における意思決定支援
 
 ## Sources

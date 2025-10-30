@@ -73,8 +73,8 @@
 - リバースエンジニアリング（製造業）
 
 ## Related Concepts
-- [[202510081127-mesh-repair-algorithms]] - ツールが実装するアルゴリズム
-- [[202510081128-mesh-repair-python-libraries]] - 自動化用Pythonライブラリ
+- [[P251008-mesh-repair-algorithms]] - ツールが実装するアルゴリズム
+- [[P251008-mesh-repair-python-libraries]] - 自動化用Pythonライブラリ
 - [[ST-3d-geometry-processing]] - 3D幾何学処理全般
 
 ## Source

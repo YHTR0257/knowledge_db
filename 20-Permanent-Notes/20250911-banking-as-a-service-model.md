@@ -50,8 +50,8 @@ Critics argue that BaaS creates regulatory gaps where companies act like banks w
 - Will the BaaS model lead to consolidation in partner banking relationships?
 
 ## Related Concepts
-- [[202509111201-interchange-fee-revenue-model]] - Primary revenue mechanism for BaaS neobanks
-- [[202509111203-financial-inclusion-through-technology]] - BaaS as enabler of financial inclusion
+- [[P250911-interchange-fee-revenue-model]] - Primary revenue mechanism for BaaS neobanks
+- [[P250911-financial-inclusion-through-technology]] - BaaS as enabler of financial inclusion
 
 ## Sources
 - Chime Financial企業分析：包括的報告書

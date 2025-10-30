@@ -23,6 +23,15 @@ research_area: career-development
 
 **Timeline**: 2024-12-01 → 継続的更新
 
+## Goal
+### なりたい姿
+- 頑張りたい・輝きたいと考えている人が成果を出すためのサポート役になる。
+- 自分の知見や知識を
+- 手段として自分として得意なITに軸足を置いて活動する
+
+成し遂げたいこと
+- 自分の知見や知識を還元する
+- 
 ## Current State Analysis
 
 ### 現在の立ち位置
@@ -32,7 +41,14 @@ research_area: career-development
 - **関心領域**: [[ST-material-informatics]], データサイエンス
 
 ### 価値観・動機分析
-*[[20241201002-motivation-theories]]の枠組みで整理*
+*[[P241201-motivation-theories]]の枠組みで整理*
+
+価値観の形成エピソード
+サポート役
+- 部活動・サークルでの役職経験
+	- 中学：副キャプテン
+	- 高校：ポジションサブリーダー
+	- 大学：イベント運営担当
 
 **内発的動機**:
 - **組織で働く人々が生き生きと活躍できる環境の実現**
@@ -42,7 +58,42 @@ research_area: career-development
 - **相手が輝けるように自分は黒子に徹する**
 - **全体最適を追求する**（個別最適より系全体の価値最大化）
 
+外発的動機ではキャリアは決めない。最後の決断材料になるかもしれないという程度。
 *動機の統合的理解*: **「日本の根幹産業における組織最適化システム」**が核心ビジョン。製造業・インフラ・小売等の社会基盤を支える産業で、技術力を活用して現場の人と組織の潜在能力を最大化し、誰もが得意分野で輝ける環境をシステム的に実現したい。
+
+## 企業を選ぶときの材料
+
+**企業風土**
+- ロマンを追い求めているか？
+	- どうせやるなら社会や人に大きな影響を与えて、新しい「当たり前」を作ることに貢献したい
+		- 自分の研究が新しい材料を作ることに挑戦している
+**事業**
+- 現実的な目標を持っているか？
+	- 机上の空論で終わらず、実際に成果になってほしい
+		- 研究をしながら、「これが何につながるのか？」と疑問に思った経験
+		- 受験勉強で、「成績アップにつながることに集中する」と決意した経験
+**組織・キャリアパス**
+- 自分のキャリアを尊重してもらえるか？
+	- 自分の意思で選択したい
+
+
+<details>
+  <summary>ロマンの具体例</summary>
+	<li> 社会を変革する</li>
+		- 誰かのために動く人がいい
+	- 直感で思ったデータがいつでもどこでも出てくる
+  
+</details>
+
+[[]]
+世界線
+
+| 条件             | 価値観             | 元となる体験                        |
+| -------------- | --------------- | ----------------------------- |
+| 現実的な目標を語っているか？ | 机上の空論で終わってほしくない |                               |
+| ロマンを追い求めているか？  | 社会に貢献したい        | 組織への貢献<br>自分が今までかけてもらったコストを意識 |
+|                |                 |                               |
+
 
 ## ターゲット事業領域
 
@@ -64,6 +115,9 @@ research_area: career-development
 *これらの業界は「非常に難しい問題」が豊富で、あなたの特性を最大限活用できる環境*
 
 ## 具体的なビジョン・実現したいシナリオ
+
+潜在的な市場を探索するためのデータ分析支援
+マーケティング支援、製品開発支援
 
 ### シナリオ1: 製造現場の熟練技能者支援
 **課題**: ベテラン技能者が品質判断・設備診断等の暗黙知作業に時間を取られている
@@ -91,7 +145,7 @@ research_area: career-development
 - 人の可能性を広げるお手伝いができる役割
 
 ### 職種選択の優先度
-*[[20241201000-multi-criteria-decision-analysis]]に基づく評価軸*
+*[[P241201-multi-criteria-decision-analysis]]に基づく評価軸*
 
 1. **自由度が高い働き方** (重み: 高)
 2. **上司とも話しやすいコミュニケーション環境** (重み: 高)
@@ -118,7 +172,7 @@ research_area: career-development
 ## Gap Analysis
 
 ### スキルギャップ分析
-*![[20241201006-personal-skills-inventory#Current Skills Matrix]]による詳細分析*
+*![[P241201-personal-skills-inventory#Current Skills Matrix]]による詳細分析*
 
 **現在の主要強み**（Level 3-4):
 - **複雑・困難な問題への挑戦力**（難易度が高い課題で最大パフォーマンス発揮）
@@ -154,7 +208,7 @@ research_area: career-development
 ## Strategic Actions
 
 ### 学習・スキル開発計画
-*[[202409102356-skill-evaluation-framework]]に基づく優先順位*
+*[[P240910-skill-evaluation-framework]]に基づく優先順位*
 
 **Priority 1: データサイエンス基礎**
 - 期間: 3ヶ月
@@ -164,14 +218,14 @@ research_area: career-development
 **Priority 2: 業界理解深化**
 - 期間: 継続的
 - 手段: 企業分析、業界レポート読解
-- 対象: [[202409102357-citrine-informatics]], [[202409102358-agc-materials]], [[202409110003-nttdata-company-analysis]]
+- 対象: [[P240910-citrine-informatics]], [[P240910-agc-materials]], [[P240911-nttdata-company-analysis]]
 
 **Priority 3: ネットワーキング**
 - 手段: 学会参加、研究室OB/OG訪問
 - 目標: 月1回の業界関係者との面談
 
 ### 転職・就職戦略
-*[[202409102354-job-hunting-strategy]]の実践*
+*[[P240910-job-hunting-strategy]]の実践*
 
 **Target Companies**:
 *評価軸: 日本の根幹産業への深い関与 + 現場DX・業務最適化機会*
@@ -193,14 +247,14 @@ research_area: career-development
   - **アビームコンサルティング**（製造業・小売業特化）
 
 **Positioning Strategy**:
-*[[20241201005-career-signaling-theory]]に基づくシグナリング*
+*[[P241201-career-signaling-theory]]に基づくシグナリング*
 - 学術的実績: 修士論文、学会発表
 - 技術的実績: GitHubポートフォリオ、Kaggle成果
 - 実務経験: インターンシップ、共同研究
 
 ## Risk Assessment
 
-*[[20241201001-risk-assessment-frameworks]]による分析*
+*[[P241201-risk-assessment-frameworks]]による分析*
 
 **High Risk**:
 - 材料×データサイエンス市場の縮小
@@ -232,35 +286,17 @@ research_area: career-development
 
 ### 理論的枠組み
 - [[ST-career-development]] - キャリア開発の全体フレームワーク
-- [[20241201003-personality-career-fit]] - 個性とキャリア適合性
-- [[202409102353-career-path-vision]] - キャリアビジョン構築
+- [[P241201-personality-career-fit]] - 個性とキャリア適合性
+- [[P240910-career-path-vision]] - キャリアビジョン構築
 
 ### 企業・業界研究
-- [[202409102357-citrine-informatics]] - MI先進企業分析
-- [[202409102358-agc-materials]] - 大手材料メーカー分析
-- [[202409110003-nttdata-company-analysis]] - ITサービス企業分析
+- [[P240910-citrine-informatics]] - MI先進企業分析
+- [[P240910-agc-materials]] - 大手材料メーカー分析
+- [[P240911-nttdata-company-analysis]] - ITサービス企業分析
 
 ### 専門領域
 - [[ST-material-informatics]] - 専門分野としてのMI
 - [[ST-data-science-career]] - データサイエンス職種
-
-## Next Actions
-
-**今週**:
-- [ ] 現在のスキルレベル詳細評価
-- [ ] Python学習計画策定
-- [ ] 企業研究スケジュール作成
-
-**今月**:
-- [ ] データサイエンス学習開始
-- [ ] 業界関係者1名とのネットワーキング
-- [ ] GitHubポートフォリオ開設
-
-**3ヶ月**:
-- [ ] 基礎的データサイエンスプロジェクト完成
-- [ ] インターンシップ応募開始
-- [ ] キャリア戦略の第1回見直し
-
 ---
 
 **Project Timeline**: 2024-12-01 → 継続的更新

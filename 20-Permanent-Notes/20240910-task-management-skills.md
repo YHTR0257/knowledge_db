@@ -49,9 +49,9 @@ Material Informaticsとデータサイエンス分野での研究・業務にお
 - 創造的作業でのタスク管理の限界は？
 
 ## Related Concepts
-- [[202409102359-personal-characteristics]] - 個人特性との関連
-- [[202409102361-my-skill-portfolio]] - スキルセットの一部
-- [[202409102353-career-path-vision]] - キャリア発展での重要性
+- [[P240910-personal-characteristics]] - 個人特性との関連
+- [[P240910-my-skill-portfolio]] - スキルセットの一部
+- [[P240910-career-path-vision]] - キャリア発展での重要性
 
 ## Sources
 - Project management experience

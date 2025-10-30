@@ -43,8 +43,8 @@
 - ゲーム・映画のCG制作
 
 ## Related Concepts
-- [[202510081128-mesh-repair-python-libraries]] - Python実装ライブラリ
-- [[202510081129-mesh-repair-software-tools]] - GUIツール比較
+- [[P251008-mesh-repair-python-libraries]] - Python実装ライブラリ
+- [[P251008-mesh-repair-software-tools]] - GUIツール比較
 - [[ST-3d-geometry-processing]] - 3D幾何学処理全般
 
 ## Source

@@ -55,8 +55,8 @@ source_type: research-field
 - 材料劣化・寿命予測への時間軸統合は？
 
 ## 関連概念
-- [[202508311200-elastic-property-inverse-design-principle]] - 逆設計への具体適用
-- [[202508311215-electronic-structure-macro-property-bridging]] - 特徴量としての電子構造情報
+- [[P250831-elastic-property-inverse-design-principle]] - 逆設計への具体適用
+- [[P250831-electronic-structure-macro-property-bridging]] - 特徴量としての電子構造情報
 - [[マテリアルズインフォマティクス]] - より広範な情報科学的材料研究
 - [[高次元最適化理論]] - 多変数空間での効率的探索
 

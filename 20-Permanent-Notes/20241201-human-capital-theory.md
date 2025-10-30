@@ -54,8 +54,8 @@ source_type: theoretical-framework
 - 人的資本の地域間移転可能性
 
 ## Related Concepts
-- [[20241201005-career-signaling-theory]] - 人的資本のシグナリング効果
-- [[202409102356-skill-evaluation-framework]] - スキル評価との統合
+- [[P241201-career-signaling-theory]] - 人的資本のシグナリング効果
+- [[P240910-skill-evaluation-framework]] - スキル評価との統合
 - [[ST-career-development]] - キャリア戦略における投資視点
 - [[ST-material-informatics]] - 専門分野の人的資本価値
 

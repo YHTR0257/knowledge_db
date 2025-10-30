@@ -51,9 +51,9 @@ Critics argue that neo-banks face challenges in achieving profitability at scale
 - Will regulatory changes level the playing field between neo-banks and traditional banks?
 
 ## Related Concepts
-- [[202509111203-financial-inclusion-through-technology]] - Core mission of neo-banking disruption
-- [[202509111201-interchange-fee-revenue-model]] - Revenue mechanism enabling fee-free services
-- [[202509111200-banking-as-a-service-model]] - Infrastructure enabling neo-banking operations
+- [[P250911-financial-inclusion-through-technology]] - Core mission of neo-banking disruption
+- [[P250911-interchange-fee-revenue-model]] - Revenue mechanism enabling fee-free services
+- [[P250911-banking-as-a-service-model]] - Infrastructure enabling neo-banking operations
 
 ## Sources
 - Chime Financial企業分析：包括的報告書

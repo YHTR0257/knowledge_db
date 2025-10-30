@@ -57,10 +57,10 @@ source_type: personal-reflection
 - 年齢や環境変化による所属欲求の変化
 
 ## Related Concepts
-- [[20250921000-supportive-leadership-style]] - サポート型リーダーシップとの相互補完
-- [[20250921002-essential-problem-solving]] - 本質理解での相手との関係構築
-- [[20241201002-motivation-theories]] - 関係性欲求理論との対応
-- [[202409102359-personal-characteristics]] - 個人特性としての発現
+- [[P250921-supportive-leadership-style]] - サポート型リーダーシップとの相互補完
+- [[P250921-essential-problem-solving]] - 本質理解での相手との関係構築
+- [[P241201-motivation-theories]] - 関係性欲求理論との対応
+- [[P240910-personal-characteristics]] - 個人特性としての発現
 
 ## Sources
 - 個人の価値観分析・自己省察

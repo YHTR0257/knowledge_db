@@ -52,9 +52,9 @@ source_type: research-project
 - 複数特性の同時最適化における優先順位設定は？
 
 ## 関連概念
-- [[202508311215-electronic-structure-macro-property-bridging]] - 電子レベル情報の活用方法
-- [[202508311230-machine-learning-materials-design]] - AIによる最適化手法
-- [[202508311245-metamaterial-design-theory]] - 構造設計の基礎原理
+- [[P250831-electronic-structure-macro-property-bridging]] - 電子レベル情報の活用方法
+- [[P250831-machine-learning-materials-design]] - AIによる最適化手法
+- [[P250831-metamaterial-design-theory]] - 構造設計の基礎原理
 
 ## 出典
 - PRJ-20250831-master-thesis-elastic-metamaterial

@@ -48,8 +48,8 @@ AGC（旭硝子）は日本の総合ガラス・化学メーカーとして、Ma
 - 研究開発でのデジタル化レベルは？
 
 ## Related Concepts
-- [[202409102357-citrine-informatics]] - MI専門企業との比較
-- [[202409102354-job-hunting-strategy]] - 就職戦略での位置づけ
+- [[P240910-citrine-informatics]] - MI専門企業との比較
+- [[P240910-job-hunting-strategy]] - 就職戦略での位置づけ
 - [[ST-material-informatics]] - MI業界での役割
 
 ## Sources

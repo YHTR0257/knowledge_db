@@ -54,9 +54,9 @@ Zero coupon bonds serve specific investment needs where lump-sum future payments
 - What are optimal strategies for tax-efficient zero coupon bond investing?
 
 ## Related Concepts
-- [[202509110938-interest-rate-risk]] - magnified in zero coupon bonds
-- [[202509110930-government-bonds]] - common form for zero coupon issuance
-- [[202509110932-yield-curve]] - affects zero coupon bond pricing across maturities
+- [[P250911-interest-rate-risk]] - magnified in zero coupon bonds
+- [[P250911-government-bonds]] - common form for zero coupon issuance
+- [[P250911-yield-curve]] - affects zero coupon bond pricing across maturities
 
 ## Sources
 - government_bond.md (Inbox processing)

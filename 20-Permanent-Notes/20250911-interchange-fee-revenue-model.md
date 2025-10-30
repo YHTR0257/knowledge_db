@@ -50,8 +50,8 @@ Critics argue that interchange fees are ultimately passed to consumers through h
 - How do interchange fee economics change with the rise of digital payments and cryptocurrencies?
 
 ## Related Concepts
-- [[202509111200-banking-as-a-service-model]] - Infrastructure enabling interchange fee capture
-- [[202509111204-unit-economics-in-fintech]] - Interchange fees as key component of fintech unit economics
+- [[P250911-banking-as-a-service-model]] - Infrastructure enabling interchange fee capture
+- [[P250911-unit-economics-in-fintech]] - Interchange fees as key component of fintech unit economics
 
 ## Sources
 - Chime Financial企業分析：包括的報告書

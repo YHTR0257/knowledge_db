@@ -59,10 +59,10 @@ source_type: personal-reflection
 - 個人と組織レベルでの適用方法の違い
 
 ## Related Concepts
-- [[20250921000-supportive-leadership-style]] - 他者の真意理解による支援
-- [[20250921001-moderate-belonging-needs]] - 深い理解関係の重視
-- [[20241201003-personality-career-fit]] - 本質的な適合性の追求
-- [[202409102359-personal-characteristics]] - 分析的思考特性の発現
+- [[P250921-supportive-leadership-style]] - 他者の真意理解による支援
+- [[P250921-moderate-belonging-needs]] - 深い理解関係の重視
+- [[P241201-personality-career-fit]] - 本質的な適合性の追求
+- [[P240910-personal-characteristics]] - 分析的思考特性の発現
 
 ## Sources
 - 個人の価値観分析・自己省察

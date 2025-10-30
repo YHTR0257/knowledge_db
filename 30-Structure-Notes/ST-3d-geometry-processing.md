@@ -16,16 +16,16 @@ scope: 3D Geometry Processing and Mesh Repair
 ## Concept Hierarchy
 
 ### Level 1: Foundational
-- ![[202510081127-mesh-repair-algorithms#Core Idea]]
-- ![[202510081127-mesh-repair-algorithms#Main Algorithms]]
+- ![[P251008-mesh-repair-algorithms#Core Idea]]
+- ![[P251008-mesh-repair-algorithms#Main Algorithms]]
 - Mesh Topology - 多様体・非多様体構造、ウォータータイト条件
 - Geometric Defects - 穴・自己交差・重複頂点・法線反転などの欠陥分類
 
 ### Level 2: Core Applications
-- ![[202510081128-mesh-repair-python-libraries#Core Idea]]
-- ![[202510081128-mesh-repair-python-libraries#Main Libraries]]
-- ![[202510081129-mesh-repair-software-tools#Core Idea]]
-- ![[202510081129-mesh-repair-software-tools#Free Software Tools]]
+- ![[P251008-mesh-repair-python-libraries#Core Idea]]
+- ![[P251008-mesh-repair-python-libraries#Main Libraries]]
+- ![[P251008-mesh-repair-software-tools#Core Idea]]
+- ![[P251008-mesh-repair-software-tools#Free Software Tools]]
 - 3D Printing Preparation - STL修復、サポート構造生成、スライシング前処理
 - Reverse Engineering - スキャンデータからのCADモデル再構築
 
@@ -39,9 +39,9 @@ scope: 3D Geometry Processing and Mesh Repair
 メッシュ修復は、3Dプリント・CAD・CG制作・文化財保存など多様な分野の基盤技術である。アルゴリズム理論（Permanent Notes）、実装ツール（Python Libraries / GUI Software）、応用分野（3D Printing / Medical Imaging）の3層構造で知識を組織化する。データサイエンス・機械学習との統合により、従来の幾何学的手法を超えた知的な形状補完が可能になりつつある。
 
 ## Learning Path
-1. **Start with**: ![[202510081129-mesh-repair-software-tools#Tool Selection by User Level]] - MeshmixerやBlenderで視覚的に穴埋めプロセスを理解
-2. **Then explore**: ![[202510081127-mesh-repair-algorithms#Main Algorithms]] - AFM法、曲率適応型など背後のアルゴリズム理論を学習
-3. **Advanced**: ![[202510081128-mesh-repair-python-libraries#Selection Criteria]] - PyMeshLabやOpen3Dでバッチ処理パイプライン構築、AI形状補完の研究
+1. **Start with**: ![[P251008-mesh-repair-software-tools#Tool Selection by User Level]] - MeshmixerやBlenderで視覚的に穴埋めプロセスを理解
+2. **Then explore**: ![[P251008-mesh-repair-algorithms#Main Algorithms]] - AFM法、曲率適応型など背後のアルゴリズム理論を学習
+3. **Advanced**: ![[P251008-mesh-repair-python-libraries#Selection Criteria]] - PyMeshLabやOpen3Dでバッチ処理パイプライン構築、AI形状補完の研究
 
 ## Knowledge Gaps
 - NeRF/3D Gaussian Splattingなど新世代3D表現との統合手法

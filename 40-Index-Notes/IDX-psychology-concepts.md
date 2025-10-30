@@ -6,12 +6,12 @@
 ## 核となる理論・概念
 
 ### 個人差・パーソナリティ心理学
-- [[20241201003-personality-career-fit]] - パーソナリティとキャリア適合性
-- [[202409102359-personal-characteristics]] - 個人特性の詳細分析
+- [[P241201-personality-career-fit]] - パーソナリティとキャリア適合性
+- [[P240910-personal-characteristics]] - 個人特性の詳細分析
 - パーソナリティ理論（ビッグファイブ等）
 
 ### 動機・欲求理論
-- [[20241201002-motivation-theories]] - 動機理論とキャリア選択
+- [[P241201-motivation-theories]] - 動機理論とキャリア選択
 - 内発的動機と外発的動機
 - 自己決定理論
 
@@ -34,7 +34,7 @@
 
 ### キャリア開発・職業心理学
 - [[ST-career-development]] - 心理学理論のキャリア応用
-- [[202409102356-skill-evaluation-framework]] - 心理測定学的評価
+- [[P240910-skill-evaluation-framework]] - 心理測定学的評価
 - 職業適性・職業満足度
 
 ### 組織・人事心理学

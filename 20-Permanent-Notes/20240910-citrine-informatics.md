@@ -47,8 +47,8 @@ Material Informaticsの実用化を推進する代表的企業として、デー
 - 求められる具体的なスキルレベルは？
 
 ## Related Concepts
-- [[202409102358-agc-materials]] - 他の参考企業
-- [[202409102354-job-hunting-strategy]] - 就職戦略への活用
+- [[P240910-agc-materials]] - 他の参考企業
+- [[P240910-job-hunting-strategy]] - 就職戦略への活用
 - [[Material Informatics]] - 技術領域との関連
 
 ## Sources

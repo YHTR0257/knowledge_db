@@ -48,12 +48,12 @@ source_type: personal-reflection
 - 組織の文化や慣習とのギャップをどう調整するか？
 
 ## Related Concepts
-- [[202409102355-life-story-framework]] - 個人的物語との整合
-- [[202409102361-communication-skills]] - コミュニケーション能力
-- [[202409102354-job-hunting-strategy]] - 就職戦略への活用
-- [[20250921000-supportive-leadership-style]] - サポート型リーダーシップ特性
-- [[20250921001-moderate-belonging-needs]] - 適度な所属欲求の表れ
-- [[20250921002-essential-problem-solving]] - 本質的問題解決志向
+- [[P240910-life-story-framework]] - 個人的物語との整合
+- [[P240910-communication-skills]] - コミュニケーション能力
+- [[P240910-job-hunting-strategy]] - 就職戦略への活用
+- [[P250921-supportive-leadership-style]] - サポート型リーダーシップ特性
+- [[P250921-moderate-belonging-needs]] - 適度な所属欲求の表れ
+- [[P250921-essential-problem-solving]] - 本質的問題解決志向
 
 ## Sources
 - Career planning self-analysis

@@ -48,10 +48,10 @@ SIE案件（PlayStation生産管理、7年継続プロジェクト）、KIRIN be
 - iQuatroにこだわらない姿勢の実践度は？
 
 ## Related Concepts
-- [[202409102354-job-hunting-strategy]] - 就職戦略での位置づけ
-- [[202409102363-task-management-skills]] - 組織課題解決への応用
+- [[P240910-job-hunting-strategy]] - 就職戦略での位置づけ
+- [[P240910-task-management-skills]] - 組織課題解決への応用
 - [[ST-data-science-career]] - データサイエンス職種での活用
-- [[202409110004-supply-chain-optimization]] - 専門領域の詳細
+- [[P240911-supply-chain-optimization]] - 専門領域の詳細
 
 ## Sources
 - NTTDATA internship experience

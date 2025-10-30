@@ -50,8 +50,8 @@ source_type: theoretical-framework
 - 相反する動機の統合方法
 
 ## Related Concepts
-- [[20241201003-personality-career-fit]] - パーソナリティと動機の関係
-- [[202409102359-personal-characteristics]] - 個人特性と動機パターン
+- [[P241201-personality-career-fit]] - パーソナリティと動機の関係
+- [[P240910-personal-characteristics]] - 個人特性と動機パターン
 - [[ST-career-development]] - キャリア開発における動機の役割
 
 ## Sources

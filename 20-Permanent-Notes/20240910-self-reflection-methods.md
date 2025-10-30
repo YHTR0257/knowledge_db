@@ -12,59 +12,60 @@ source_type: methodology
 # How to do Personal Reflection
 
 ## Core Idea
-º„ßoË UŒ_KÕ’(Dfêñã’ñLK‰fÒWenLÕhzš’9„Y‹™š„j×í»¹gB‹
+ï¿½ï¿½ï¿½oï¿½ Uï¿½_KÕ’(Dfï¿½ï¿½ï¿½ï¿½LKï¿½fï¿½WenLï¿½hzï¿½ï¿½9ï¿½Yï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½ï¿½gBï¿½
 
 ## Context
-­ãê¢‹zhêñwkJDfLnseQhfÒn½úoÍjý›gB‹ykMaterial Informatics„Çü¿µ¤¨ó¹Îgn€'zUkJDfß„ŸõLw’ Y‹
+ï¿½ï¿½ê¢‹zhï¿½ï¿½wkJDfLnseQhfï¿½nï¿½ï¿½oÍjï¿½ï¿½gBï¿½ykMaterial Informaticsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gnï¿½'zUkJDfß„ï¿½ï¿½Lwï¿½ï¿½Yï¿½
 
 ## Key Points
-- **Sû„j/ŠÔŠ×í»¹**:
-  - WhatULwSc_K	n¢³„2
-  - So What]ŒLU’sY‹K	n
-  - Now WhatÊŒiFY‹K	nLÕ;
+- **Sï¿½ï¿½j/ï¿½ÔŠï¿½ï¿½ï¿½ï¿½**:
+  - WhatULwSc_K	nï¿½ï¿½ï¿½2
+  - So What]ï¿½LUï¿½sYï¿½K	nï¿½
+  - Now WhatÊŒiFYï¿½K	nLï¿½;
 
-- **š„jŸõ**:
-  - å!níB“/ŠÔŠ
-  - 1!û!ns0ìÓåü
-  - ×í¸§¯ÈŒ†BnÏì
+- **ï¿½ï¿½jï¿½ï¿½**:
+  - ï¿½!nï¿½Bï¿½/ï¿½ÔŠ
+  - 1!ï¿½!ns0ï¿½ï¿½ï¿½ï¿½
+  - ï¿½ï¿½ï¿½ï¿½ï¿½ÈŒï¿½Bnï¿½ï¿½
 
-- **Ò„j–¹**:
-  - €S„¹­ënzU
-  - º“¢Âh³ßåË±ü·çó
-  - ¡$³hÕ_n	
+- **Ò„jï¿½ï¿½**:
+  - ï¿½Sï¿½ï¿½ï¿½ï¿½nzU
+  - ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Ë±ï¿½ï¿½ï¿½ï¿½
+  - ï¿½$ï¿½hï¿½_n	
 
 ## Examples
-v×í¸§¯ÈŒnfÒÝ¤óÈt¤ó¿üó·Ã×LnseQ€S¹­ëÒ—×í»¹n/ŠÔŠ1WK‰nfÒ½ú
+vï¿½ï¿½ï¿½ï¿½ï¿½ÈŒnfï¿½Ý¤ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½LnseQï¿½Sï¿½ï¿½ï¿½Ò—ï¿½ï¿½ï¿½ï¿½n/ï¿½ÔŠ1WKï¿½nfÒ½ï¿½
 
 ## Implications
-- ™š„jêñ9„hw 
-- ­ãê¢xžkJQ‹êñãnñ
-- ¹Èì¹ýhÃ„¦§ëÓü¤ó°
+- ï¿½ï¿½ï¿½jï¿½ï¿½9ï¿½hwï¿½
+- ï¿½ï¿½ï¿½xï¿½kJQï¿½ï¿½ï¿½ï¿½nï¿½
+- ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-- Öhn¢Â9„há<ËÉ
+- ï¿½hnï¿½ï¿½9ï¿½hï¿½<ï¿½ï¿½
 
 ## Counterarguments
-N¦j…kˆ‹LÕ»úêñy$xnOÍ¢³'n ‚kˆ‹Oc_ãÈB“•ÇkþY‹¹œnºŸ'
+Nï¿½jï¿½kï¿½ï¿½LÕ»ï¿½ï¿½ï¿½y$xnOï¿½ï¿½ï¿½'n ï¿½kï¿½ï¿½Oc_ï¿½ï¿½Bï¿½ï¿½ï¿½kï¿½Yï¿½ï¿½ï¿½n
+ï¿½ï¿½'
 
 ## Applications
-- ­ãê¢;hî-š
-- 1w;Õgnêñ
-- ×í¸§¯È¡hÁüàTÍ9„
-- é¤Õ¹ÈüêüËÉh¢¤ÇóÆ£Æ£b
-- áó¿êó°h¢Âgn;(
+- ï¿½ï¿½ï¿½;hï¿½-ï¿½
+- 1w;ï¿½gnï¿½ï¿½ï¿½
+- ï¿½ï¿½ï¿½ï¿½ï¿½È¡hï¿½ï¿½ï¿½Tï¿½9ï¿½
+- ï¿½Õ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½Æ£Æ£b
+- ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½gn;(
 
 ## Open Questions
-- in¦n;¦gß’LFyMK
-- ¢³'’Ýd_n¹œ„j¹Õo
-- ÖK‰nÕ£üÉÐÃ¯’iFqY‹K
-- ßnê’iFU¡Y‹K
+- inï¿½n;ï¿½gß’LFyMK
+- ï¿½ï¿½'ï¿½ï¿½d_ï¿½nï¿½ï¿½ï¿½jï¿½ï¿½o
+- ï¿½Kï¿½nÕ£ï¿½ï¿½ï¿½Ã¯ï¿½iFqYï¿½K
+- ï¿½nï¿½iFUï¿½Yï¿½K
 
 ## Related Concepts
-- [[202409102355-life-story-framework]] - ºižhnq
-- [[202409102359-personal-characteristics]] - ºy'nã
-- [[202409102363-task-management-skills]] - Ÿõ„¹­ë
+- [[P240910-life-story-framework]] - ï¿½iï¿½hnq
+- [[P240910-personal-characteristics]] - ï¿½y'nï¿½
+- [[P240910-task-management-skills]] - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-- [[202409102356-skill-evaluation-framework]] - ý›U¡hn#:
+- [[P240910-skill-evaluation-framework]] - ï¿½ï¿½Uï¿½hn#:
 
 ## Sources
 - Personal development methodologies

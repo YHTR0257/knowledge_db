@@ -51,9 +51,9 @@ source_type: theoretical-framework
 - 複合リスクの相互作用評価
 
 ## Related Concepts
-- [[20241201000-multi-criteria-decision-analysis]] - 意思決定における統合的評価
+- [[P241201-multi-criteria-decision-analysis]] - 意思決定における統合的評価
 - [[ST-career-development]] - キャリア戦略とリスク管理
-- [[202409102353-career-path-vision]] - 長期的視点でのリスク考慮
+- [[P240910-career-path-vision]] - 長期的視点でのリスク考慮
 
 ## Sources
 - リスクマネジメント理論

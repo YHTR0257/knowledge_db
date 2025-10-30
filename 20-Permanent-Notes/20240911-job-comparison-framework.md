@@ -48,9 +48,9 @@ source_type: career-analysis
 - 個人の価値観変化にどう対応するか？
 
 ## Related Concepts
-- [[202409102354-job-hunting-strategy]] - 就職戦略との連携
-- [[202409102356-skill-evaluation-framework]] - スキル評価との関係
-- [[202409102362-quants-career-path]] - 特定職種の詳細分析
+- [[P240910-job-hunting-strategy]] - 就職戦略との連携
+- [[P240910-skill-evaluation-framework]] - スキル評価との関係
+- [[P240910-quants-career-path]] - 特定職種の詳細分析
 
 ## Sources
 - Career planning documentation

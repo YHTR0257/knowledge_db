@@ -38,9 +38,9 @@
 - クラウドネイティブアプリケーション
 
 ## 関連する永続ノート
-- [[202409110004-rest-api-architecture]]
-- [[202409110003-nttdata-company-analysis]]
-- [[202409102361-my-skill-portfolio]]
+- [[P240911-rest-api-architecture]]
+- [[P240911-nttdata-company-analysis]]
+- [[P240910-my-skill-portfolio]]
 
 ## 関連する構造ノート
 - [[ST-data-science-career]] - データサイエンス技術との統合

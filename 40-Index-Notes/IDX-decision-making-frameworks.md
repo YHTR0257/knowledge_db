@@ -6,23 +6,23 @@
 ## 核となる理論・概念
 
 ### 意思決定理論
-- [[20241201000-multi-criteria-decision-analysis]] - 多基準意思決定分析
-- [[20241201001-risk-assessment-frameworks]] - リスク評価と管理
-- [[202409110000-job-comparison-framework]] - 職業選択の評価手法
+- [[P241201-multi-criteria-decision-analysis]] - 多基準意思決定分析
+- [[P241201-risk-assessment-frameworks]] - リスク評価と管理
+- [[P240911-job-comparison-framework]] - 職業選択の評価手法
 
 ### 認知・心理学的アプローチ
-- [[20241201002-motivation-theories]] - 動機理論と意思決定
-- [[20241201003-personality-career-fit]] - 個性と選択の適合性
+- [[P241201-motivation-theories]] - 動機理論と意思決定
+- [[P241201-personality-career-fit]] - 個性と選択の適合性
 
 ### 経済学的アプローチ
-- [[20241201004-human-capital-theory]] - 人的資本理論と投資判断
-- [[20241201005-career-signaling-theory]] - シグナリング理論
+- [[P241201-human-capital-theory]] - 人的資本理論と投資判断
+- [[P241201-career-signaling-theory]] - シグナリング理論
 
 ## 応用分野
 
 ### キャリア・職業選択
 - [[ST-career-development]] - キャリア開発フレームワーク
-- [[202409102354-job-hunting-strategy]] - 転職戦略
+- [[P240910-job-hunting-strategy]] - 転職戦略
 
 ### ビジネス・組織
 - 戦略決定プロセス

@@ -48,10 +48,10 @@ source_type: self-assessment
 - スキル証明の最適な方法は？
 
 ## Related Concepts
-- [[202409102356-skill-evaluation-framework]] - 評価フレームワーク
-- [[202409102353-career-path-vision]] - キャリア目標との整合
-- [[202409102363-task-management-skills]] - 管理能力の詳細
-- [[202409110004-rest-api-architecture]] - 技術スキルの具体例
+- [[P240910-skill-evaluation-framework]] - 評価フレームワーク
+- [[P240910-career-path-vision]] - キャリア目標との整合
+- [[P240910-task-management-skills]] - 管理能力の詳細
+- [[P240911-rest-api-architecture]] - 技術スキルの具体例
 
 ## Sources
 - Academic achievements and research experience

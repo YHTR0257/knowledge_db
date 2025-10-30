@@ -48,8 +48,8 @@ source_type: career-exploration
 - 必要な追加スキルは何か？
 
 ## Related Concepts
-- [[202409102361-my-skill-portfolio]] - データサイエンススキルの活用
-- [[202409110000-job-comparison-framework]] - 他職種との比較
+- [[P240910-my-skill-portfolio]] - データサイエンススキルの活用
+- [[P240911-job-comparison-framework]] - 他職種との比較
 - [[ST-data-science-career]] - データサイエンス全般のキャリア
 
 ## Sources

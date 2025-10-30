@@ -55,9 +55,9 @@ Yield curve inversion is considered one of the most reliable recession predictor
 - What is the optimal response timeframe for inversion-based strategies?
 
 ## Related Concepts
-- [[202509110932-yield-curve]] - broader framework for understanding rate relationships
-- [[202509110930-government-bonds]] - underlying securities forming the curve
-- [[202509110938-interest-rate-risk]] - risk management during curve inversions
+- [[P250911-yield-curve]] - broader framework for understanding rate relationships
+- [[P250911-government-bonds]] - underlying securities forming the curve
+- [[P250911-interest-rate-risk]] - risk management during curve inversions
 
 ## Sources
 - government_bond.md (Inbox processing)

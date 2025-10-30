@@ -39,12 +39,12 @@
 - 部下・上司双方から頼られる存在
 
 ## 関連する永続ノート
-- [[202409102361-my-skill-portfolio]]
-- [[202409102356-skill-evaluation-framework]]
-- [[202409102363-task-management-skills]]
-- [[202409102362-quants-career-path]]
-- [[202409110003-nttdata-company-analysis]]
-- [[202409110005-ensemble-learning-methods]]
+- [[P240910-my-skill-portfolio]]
+- [[P240910-skill-evaluation-framework]]
+- [[P240910-task-management-skills]]
+- [[P240910-quants-career-path]]
+- [[P240911-nttdata-company-analysis]]
+- [[P240911-ensemble-learning-methods]]
 
 ## 関連する構造ノート
 - [[ST-career-development]] - 全体的なキャリア戦略

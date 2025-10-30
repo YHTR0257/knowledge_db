@@ -50,9 +50,9 @@ Government bonds are fundamental to financial markets as they represent the risk
 - What impact do negative interest rates have on government bond market dynamics?
 
 ## Related Concepts
-- [[202509110932-yield-curve]] - displays relationship between bond yields and maturities
-- [[202509110934-interest-rate-risk]] - primary risk factor for bond investments
-- [[202509110936-rolldown-effect]] - strategy for capturing yield curve benefits
+- [[P250911-yield-curve]] - displays relationship between bond yields and maturities
+- [[P250911-interest-rate-risk]] - primary risk factor for bond investments
+- [[P250911-rolldown-effect]] - strategy for capturing yield curve benefits
 
 ## Sources
 - government_bond.md (Inbox processing)

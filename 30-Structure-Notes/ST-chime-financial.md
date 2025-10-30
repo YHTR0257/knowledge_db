@@ -12,8 +12,8 @@
 - **Stock Symbol**: CHYM (NASDAQ, since June 2025)
 
 ### Business Model
-- **Primary Model**: ![[202509111200-banking-as-a-service-model#Core Idea]]
-- **Revenue Source**: [[202509111201-interchange-fee-revenue-model]] (72-80% of revenue)
+- **Primary Model**: ![[P250911-banking-as-a-service-model#Core Idea]]
+- **Revenue Source**: [[P250911-interchange-fee-revenue-model]] (72-80% of revenue)
 - **Target Market**: $35K-$65K income households, expanding to $200K
 - **Banking Partners**: The Bancorp Bank, Stride Bank (FDIC-insured)
 
@@ -36,15 +36,15 @@
 ## Strategic Position
 
 ### Competitive Advantages
-- [[202509111204-unit-economics-in-fintech]] - Low CAC (~$100), strong ARPU
+- [[P250911-unit-economics-in-fintech]] - Low CAC (~$100), strong ARPU
 - **ChimeCore**: Proprietary banking technology platform
 - **AI Integration**: Automated customer support and operational efficiency
 - Strong brand loyalty in target demographic
 
 ### Market Position
 - Leader in neo-banking for underserved consumers
-- [[202509111202-neo-banking-disruption-strategy]] targeting traditional banking gaps
-- [[202509111203-financial-inclusion-through-technology]] mission-driven approach
+- [[P250911-neo-banking-disruption-strategy]] targeting traditional banking gaps
+- [[P250911-financial-inclusion-through-technology]] mission-driven approach
 
 ## Key Milestones
 
@@ -58,11 +58,11 @@
 - **TAM Expansion**: From current $85B to potential $426B
 
 ## Related Concepts
-- [[202509111200-banking-as-a-service-model]]
-- [[202509111201-interchange-fee-revenue-model]]
-- [[202509111202-neo-banking-disruption-strategy]]
-- [[202509111203-financial-inclusion-through-technology]]
-- [[202509111204-unit-economics-in-fintech]]
+- [[P250911-banking-as-a-service-model]]
+- [[P250911-interchange-fee-revenue-model]]
+- [[P250911-neo-banking-disruption-strategy]]
+- [[P250911-financial-inclusion-through-technology]]
+- [[P250911-unit-economics-in-fintech]]
 
 ## Challenges & Risks
 - Regulatory scrutiny and compliance issues

@@ -54,13 +54,13 @@ source_type: theoretical-framework
 - 複数特性の相互作用効果
 
 ## Related Concepts
-- [[20241201002-motivation-theories]] - 動機とパーソナリティの関係
-- [[202409102359-personal-characteristics]] - 個人特性の詳細分析
-- [[202409102356-skill-evaluation-framework]] - スキルと適性の統合評価
+- [[P241201-motivation-theories]] - 動機とパーソナリティの関係
+- [[P240910-personal-characteristics]] - 個人特性の詳細分析
+- [[P240910-skill-evaluation-framework]] - スキルと適性の統合評価
 - [[ST-career-development]] - キャリア開発における適合性考慮
-- [[20250921000-supportive-leadership-style]] - 具体的リーダーシップ特性
-- [[20250921001-moderate-belonging-needs]] - 所属欲求パターン
-- [[20250921002-essential-problem-solving]] - 問題解決アプローチ特性
+- [[P250921-supportive-leadership-style]] - 具体的リーダーシップ特性
+- [[P250921-moderate-belonging-needs]] - 所属欲求パターン
+- [[P250921-essential-problem-solving]] - 問題解決アプローチ特性
 
 ## Sources
 - パーソナリティ心理学理論

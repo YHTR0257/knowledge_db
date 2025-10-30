@@ -1,23 +1,23 @@
 # Finance Concepts Index
 
 ## Fixed Income Securities
-- [[202509110930-government-bonds]] - Government-issued debt securities serving as benchmark investments
-- [[202509110940-zero-coupon-bonds]] - Bonds issued without periodic interest payments
+- [[P250911-government-bonds]] - Government-issued debt securities serving as benchmark investments
+- [[P250911-zero-coupon-bonds]] - Bonds issued without periodic interest payments
 
 ## Interest Rate Concepts
-- [[202509110932-yield-curve]] - Relationship between bond yields and maturity periods
-- [[202509110934-inverted-yield-curve]] - Economic recession indicator when short rates exceed long rates
-- [[202509110938-interest-rate-risk]] - Primary risk factor in bond investing
+- [[P250911-yield-curve]] - Relationship between bond yields and maturity periods
+- [[P250911-inverted-yield-curve]] - Economic recession indicator when short rates exceed long rates
+- [[P250911-interest-rate-risk]] - Primary risk factor in bond investing
 
 ## Investment Strategies
-- [[202509110936-rolldown-effect]] - Strategy capturing gains from yield curve positioning
+- [[P250911-rolldown-effect]] - Strategy capturing gains from yield curve positioning
 
 ## Financial Technology (Fintech)
-- [[202509111200-banking-as-a-service-model]] - Business model enabling non-bank financial services
-- [[202509111201-interchange-fee-revenue-model]] - Transaction-based revenue from merchant payments
-- [[202509111202-neo-banking-disruption-strategy]] - Digital-first banking targeting underserved markets
-- [[202509111203-financial-inclusion-through-technology]] - Using technology to expand financial service access
-- [[202509111204-unit-economics-in-fintech]] - Customer profitability metrics for fintech scaling
+- [[P250911-banking-as-a-service-model]] - Business model enabling non-bank financial services
+- [[P250911-interchange-fee-revenue-model]] - Transaction-based revenue from merchant payments
+- [[P250911-neo-banking-disruption-strategy]] - Digital-first banking targeting underserved markets
+- [[P250911-financial-inclusion-through-technology]] - Using technology to expand financial service access
+- [[P250911-unit-economics-in-fintech]] - Customer profitability metrics for fintech scaling
 
 ## Related Areas
 - Economic indicators

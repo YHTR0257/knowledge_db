@@ -84,8 +84,8 @@ o3d.io.write_triangle_mesh("output.stl", filled_mesh.to_legacy())
 - リアルタイム3Dスキャンデータの修復
 
 ## Related Concepts
-- [[202510081127-mesh-repair-algorithms]] - 背後のアルゴリズム理論
-- [[202510081129-mesh-repair-software-tools]] - GUI代替ツール
+- [[P251008-mesh-repair-algorithms]] - 背後のアルゴリズム理論
+- [[P251008-mesh-repair-software-tools]] - GUI代替ツール
 - [[ST-3d-geometry-processing]] - 3D幾何学処理全般
 
 ## Source
