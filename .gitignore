@@ -3,6 +3,18 @@
 # Obsidian
 .obsidian/cache
 .obsidian/
+.vscode/
+cache/
+.obsidian/plugins/
+
+# Cache
+*.log
+*.tmp
+*.bak
+*.aux
+*.out
+*.toc
+*.synctex.gz
 
 # macOS
 .DS_Store
