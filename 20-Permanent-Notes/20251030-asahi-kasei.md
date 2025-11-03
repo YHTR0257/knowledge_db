@@ -1,8 +1,8 @@
 
 ## Philosophy
 
-![企業理念](image.png)
+![企業理念](20251030-asahikasei-slogan.png)
 - 「素材の力で、社会の未来をひらく」
 
 CEOメッセージ
-![[Pasted image 20251030094550.png]]
+![[20251030-asahikasei-ceo-message.png]]
