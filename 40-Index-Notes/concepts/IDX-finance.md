@@ -19,12 +19,16 @@
 - [[P250911-financial-inclusion-through-technology]] - Using technology to expand financial service access
 - [[P250911-unit-economics-in-fintech]] - Customer profitability metrics for fintech scaling
 
+## Corporate Finance & Investment Analysis
+- [[20251103-hankyu-hansin-hd]] - Railway/real estate conglomerate financial strategy and investment case
+
 ## Related Areas
 - Economic indicators
 - Risk management
 - Monetary policy
 - Financial technology
 - Banking innovation
+- Corporate analysis
 
 ---
 Created: 2025-09-11
