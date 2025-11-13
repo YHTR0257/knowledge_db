@@ -1,8 +1,8 @@
 ---
-id: 202409110003
-created: 2024-09-11
-updated: 2024-09-11
-tags: [permanent, company, consulting, system-integration]
+id: 20251103-nttdata-sc-unit-analysis
+created: 2025-11-03
+updated: 2025-11-03
+tags: [permanent, company-analysis, nttdata, supply-chain, data-science, consulting, system-integration]
 type: permanent-note
 status: active
 confidence: high
@@ -52,6 +52,8 @@ SIE案件（PlayStation生産管理、7年継続プロジェクト）、KIRIN be
 - [[P240910-task-management-skills]] - 組織課題解決への応用
 - [[ST-data-science-career]] - データサイエンス職種での活用
 - [[P240911-supply-chain-optimization]] - 専門領域の詳細
+- [[PRJ-20251029-company-analysis]] - 企業分析プロジェクト
+- [[20251103-hankyu-hansin-hd]] - 他業種企業分析事例（運輸・不動産）
 
 ## Sources
 - NTTDATA internship experience
