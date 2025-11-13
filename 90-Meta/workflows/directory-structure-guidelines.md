@@ -113,22 +113,18 @@ This document defines the optimal subdirectory organization for the Zettelkasten
 
 ```
 50-Project-Notes/
-├── research/              # 🆕 研究プロジェクト
-│   ├── active/
-│   ├── completed/
-│   └── planning/
-├── development/           # 🆕 開発プロジェクト
-│   ├── active/
-│   ├── completed/
-│   └── archived/
-├── writing/               # 🆕 執筆プロジェクト
-│   ├── active/
-│   ├── published/
-│   └── drafts/
-├── learning/              # 🆕 学習プロジェクト
-│   ├── courses/
-│   ├── certifications/
-│   └── skill-development/
+├── 01-Career/              # 👩‍💼 進路・就職活動
+│   ├── active/
+│   ├── complete/
+│   └── planning/
+├── 02-Artifact/           # 📄 期限付きの成果物（論文、コード、マニュアルなど）
+│   ├── active/
+│   ├── complete/
+│   └── planning/
+├── 03-Skill-Building/      # 🧠 スキル・資格の学習（Java, 統計検定など）
+│    ├── active/
+│    ├── complete/
+│    └── planning/
 └── meta/                  # プロジェクト管理・テンプレート
     ├── templates/
     ├── methodologies/
@@ -136,26 +132,8 @@ This document defines the optimal subdirectory organization for the Zettelkasten
 ```
 
 **Rationale**:
-- 個人のプロジェクト管理ニーズに合わせた柔軟な構造
-- プロジェクトタイプ別の整理による効率的アクセス
-
----
-
-## Migration Strategy
-
-### Phase 1: Critical Enhancements (即座に実装)
-1. `10-Literature-Notes/podcasts/` の追加
-2. `40-Index-Notes/temporal/` と `40-Index-Notes/projects/` の追加
-
-### Phase 2: Organizational Improvements (コンテンツ蓄積後)
-1. `20-Permanent-Notes/` の年/月フォルダ導入
-2. `30-Structure-Notes/` のドメイン別再編成
-3. `50-Project-Notes/` の個人プロジェクト分類への適応
-
-### Phase 3: Advanced Features (長期運用後)
-1. 自動分類ルールの実装
-2. クロスリファレンス自動生成
-3. 使用統計に基づく構造最適化
+- MECE原則に基づくプロジェクト分類
+- 個人の目標・活動の状況に合わせて、配置場所を変更する
 
 ---
 
