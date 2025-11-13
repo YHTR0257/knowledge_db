@@ -6,6 +6,7 @@ Java環境の構築を教えてくれる記事
 WSLとSDKMAN!とVSCodeでJavaの開発環境を構築する
 
 必要なもの
+
 WSL Ubuntu
 いつものペンギンさん
 Microsoftがすごい力を入れて、WindowsでもLinuxを使えるようにしているもの
