@@ -44,15 +44,13 @@ This document defines the optimal subdirectory organization for the Zettelkasten
 
 ```
 20-Permanent-Notes/
-├── YYYY/                    # 🆕 年単位フォルダ（任意）
-│   ├── YYYYMM/             # 🆕 月単位フォルダ（任意）
-│   └── notes...
-└── [direct placement]       # フラット配置も可
+├── 2024/                  # 年別フォルダ
+├── 2025/                  # 年別フォルダ
 ```
 
 **Rationale**: 
 - タイムスタンプIDによる自然な時系列管理
-- 大量化した場合の年/月フォルダによる整理オプション
+- 大量化した場合の年フォルダ管理
 - 検索主体のアクセスのためフラット配置も許可
 
 ---
@@ -137,7 +135,9 @@ This document defines the optimal subdirectory organization for the Zettelkasten
     └── reviews/
 ```
 
-**Customization Note**: この構造は使用者の実際のプロジェクト種別に合わせて調整してください。
+**Rationale**:
+- 個人のプロジェクト管理ニーズに合わせた柔軟な構造
+- プロジェクトタイプ別の整理による効率的アクセス
 
 ---
 
