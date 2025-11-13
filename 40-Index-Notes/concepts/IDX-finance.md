@@ -21,6 +21,7 @@
 
 ## Corporate Finance & Investment Analysis
 - [[20251103-hankyu-hansin-hd]] - Railway/real estate conglomerate financial strategy and investment case
+- [[20251103-mufg-company-analysis]] - MUFG comprehensive financial group analysis and megabank comparison
 
 ## Related Areas
 - Economic indicators

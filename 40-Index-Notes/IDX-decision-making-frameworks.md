@@ -13,6 +13,7 @@
 ### 認知・心理学的アプローチ
 - [[P241201-motivation-theories]] - 動機理論と意思決定
 - [[P241201-personality-career-fit]] - 個性と選択の適合性
+- [[20251107-knowledge-coaching-service-mvv#自律を構成する5つの要素]] - 自律的な意思決定のための5要素
 
 ### 経済学的アプローチ
 - [[P241201-human-capital-theory]] - 人的資本理論と投資判断
