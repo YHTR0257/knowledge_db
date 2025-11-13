@@ -1,36 +1,28 @@
 # Finance Concepts Index
 
 ## Fixed Income Securities
-- [[P250911-government-bonds]] - Government-issued debt securities serving as benchmark investments
-- [[P250911-zero-coupon-bonds]] - Bonds issued without periodic interest payments
+### Related Notes
+- [[20251103-smbc-group-company-analysis]] - SMBCグループの金融・銀行分析（#finance #banking）
 
 ## Interest Rate Concepts
-- [[P250911-yield-curve]] - Relationship between bond yields and maturity periods
-- [[P250911-inverted-yield-curve]] - Economic recession indicator when short rates exceed long rates
-- [[P250911-interest-rate-risk]] - Primary risk factor in bond investing
+### Related Notes
+- [[20250911-rolldown-effect]] - ロールダウン効果と金利戦略（#finance #investment-strategy）
 
 ## Investment Strategies
-- [[P250911-rolldown-effect]] - Strategy capturing gains from yield curve positioning
+### Related Notes
+- [[20250911-rolldown-effect]] - ロールダウン効果と金利戦略（#finance #investment-strategy）
 
 ## Financial Technology (Fintech)
-- [[P250911-banking-as-a-service-model]] - Business model enabling non-bank financial services
-- [[P250911-interchange-fee-revenue-model]] - Transaction-based revenue from merchant payments
-- [[P250911-neo-banking-disruption-strategy]] - Digital-first banking targeting underserved markets
-- [[P250911-financial-inclusion-through-technology]] - Using technology to expand financial service access
-- [[P250911-unit-economics-in-fintech]] - Customer profitability metrics for fintech scaling
+### Related Notes
+- [[20250911-unit-economics-in-fintech]] - Fintechのユニットエコノミクス（#fintech #metrics）
 
 ## Corporate Finance & Investment Analysis
-- [[20251103-hankyu-hansin-hd]] - Railway/real estate conglomerate financial strategy and investment case
-- [[20251103-mufg-company-analysis]] - MUFG comprehensive financial group analysis and megabank comparison
+### Related Notes
+- [[20251103-ufj-bank-analysis]] - 三菱UFJ銀行の分析（#company-analysis #mufg-bank #digital-banking）
 
 ## Related Areas
-- Economic indicators
-- Risk management
-- Monetary policy
-- Financial technology
-- Banking innovation
-- Corporate analysis
+### Related Notes
+- [[20251103-eaton-company-analysis]] - Eaton社の企業分析（#company #power-management）
 
----
 Created: 2025-09-11
 Last Updated: 2025-09-11

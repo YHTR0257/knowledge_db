@@ -6,30 +6,20 @@
 ## 核となる理論・概念
 
 ### 労働経済学
-- [[P241201-human-capital-theory]] - 人的資本理論と教育投資
-- [[P241201-career-signaling-theory]] - シグナリング理論
-- 労働市場の需給バランス
-- 職業間賃金格差
+### Related Notes
+- [[20251107-knowledge-coaching-service-mvv]] - MVVと人的資本・キャリア（#personal-philosophy #career-development）
 
-### ミクロ経済学・意思決定理論
-- 効用最大化と選択理論
-- 機会費用と代替効果
-- リスクと不確実性下の意思決定
+### Related Notes
+- [[20241201-multi-criteria-decision-analysis]] - 多基準意思決定分析（#decision-making #methodology）
 - 時間選好と割引率
-
-### 情報経済学
-- 情報の非対称性
-- 逆選択とモラルハザード
+### Related Notes
+- [[20251103-mufg-bank-analysis]] - MUFG銀行の情報経済学的分析（#company-analysis #mufg-bank #digital-banking）
 - シグナリングとスクリーニング
-- 検索理論
-
-### 行動経済学
-- 認知バイアスと合理性の限界
+### Related Notes
+- [[20250911-rolldown-effect]] - 金利戦略と行動経済学（#finance #investment-strategy）
 - プロスペクト理論
-- 現在バイアスと時間非整合性
-- ナッジとチョイスアーキテクチャ
-
-### ゲーム理論
+### Related Notes
+- [[20251103-eaton-company-analysis]] - Eaton社の企業分析とゲーム理論（#company #power-management）
 - 戦略的相互作用
 - 協力と競争のバランス
 - ネットワーク効果

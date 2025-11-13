@@ -1,13 +1,17 @@
 # 3D Processing Concepts Index
 
 ## Mesh Repair & Geometry Processing
-- [[P251008-mesh-repair-algorithms]] - メッシュ修復アルゴリズム（AFM法、曲率適応型、サイズ別分類）
-- [[P251008-mesh-repair-python-libraries]] - Python実装ライブラリ（PyMeshLab、PyMeshFix、Trimesh、Open3D）
-- [[P251008-mesh-repair-software-tools]] - GUIツール（MeshLab、Meshmixer、Blender、Materialise Magics）
 
-## Structure Notes
+### Related Notes
+- [[LN-20251008-mesh-repair-survey]] - メッシュ修復技術の包括的調査（#3d-processing #mesh-repair #survey）
+
+
+### Related Notes
+- [[P251008-mesh-repair-algorithms]] - メッシュ修復アルゴリズム詳細（#mesh-repair #algorithms #3d-processing #geometry）
 - [[ST-3d-geometry-processing]] - 3D幾何学処理の知識体系
 
+### Related Notes
+- [[P251008-mesh-repair-python-libraries]] - Pythonによるメッシュ修復ライブラリ（#python #mesh-repair #3d-processing #libraries）
 ## Literature Sources
 - [[LN-20251008-mesh-repair-survey]] - メッシュ修復技術の包括的調査
 

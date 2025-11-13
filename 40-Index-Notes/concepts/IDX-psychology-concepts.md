@@ -6,41 +6,32 @@
 ## 核となる理論・概念
 
 ### 個人差・パーソナリティ心理学
-- [[P241201-personality-career-fit]] - パーソナリティとキャリア適合性
-- [[P240910-personal-characteristics]] - 個人特性の詳細分析
-- パーソナリティ理論（ビッグファイブ等）
+### Related Notes
+- [[20251107-knowledge-coaching-service-mvv]] - MVVとパーソナリティ・価値観（#personal-philosophy #career-development）
 
 ### 動機・欲求理論
-- [[P241201-motivation-theories]] - 動機理論とキャリア選択
-- 内発的動機と外発的動機
-- 自己決定理論
+### Related Notes
+- [[20250921-essential-problem-solving]] - 問題解決と動機理論（#philosophy #problem-solving #personal-values）
 
 ### 認知・意思決定心理学
-- 認知バイアスと意思決定
-- メンタルモデル・フレーミング効果
-- 直感的判断vs分析的判断
+### Related Notes
+- [[20241201-multi-criteria-decision-analysis]] - 多基準意思決定分析（#decision-making #methodology）
 
 ### 発達・学習心理学
-- キャリア発達段階理論
-- 成人学習理論
-- スキル習得と専門性発達
+### Related Notes
+- [[P240910-skill-evaluation-framework]] - スキル評価と発達心理（#skill-evaluation #career #psychology）
 
 ### 社会心理学
-- 社会的認知・帰属理論
-- グループダイナミクス
-- リーダーシップ心理学
+### Related Notes
+- [[20250921-supportive-leadership-style]] - サポート型リーダーシップ（#philosophy #leadership #personal-values）
 
 ## 応用分野
 
 ### キャリア開発・職業心理学
-- [[ST-career-development]] - 心理学理論のキャリア応用
-- [[P240910-skill-evaluation-framework]] - 心理測定学的評価
-- 職業適性・職業満足度
+### Related Notes
+- [[20251107-knowledge-coaching-service-mvv]] - キャリア開発とMVV（#career-development #personal-philosophy）
 
 ### 組織・人事心理学
-- 採用・選考心理学
-- 職場行動・組織コミットメント
-- チームワーク・コミュニケーション
 
 ### 教育・学習支援
 - 学習動機・学習方略
