@@ -5,6 +5,12 @@
 
 ## 核となる価値観・哲学
 
+### 株式会社じぶんのMVV (Mission, Vision, Value)
+- [[20251107-knowledge-coaching-service-mvv#MVV for 株式会社じぶん]]
+
+### 自律的に生きるとは？
+- [[20251107-knowledge-coaching-service-mvv#自律的に生きるとは？？？]]
+
 ### リーダーシップ・対人関係
 - [[P250921-supportive-leadership-style]] - サポート型リーダーシップスタイル
 - [[P250921-moderate-belonging-needs]] - 適度な所属欲求
