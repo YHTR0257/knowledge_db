@@ -9,22 +9,33 @@ confidence: high
 source_type: knowledge
 ---
 
-# COMSOL Java API実行ガイド：Mavenとcomsol.exeによる梁の圧縮解析
+# COMSOL compilerの設定説明ドキュメント
 
-COMSOLのJava APIを利用したシミュレーション自動化において、外部ファイル（例: YAML）からパラメータを読み込むことは、再利用性と柔軟性を高める上で非常に重要です。しかし、YAMLファイルを読み取るには外部ライブラリ（例: SnakeYAML）が必要となり、依存関係の管理が課題となります。
-
-このガイドでは、**Maven** を使ってSnakeYAMLなどの依存関係を管理しつつ、**`comsol.exe`のバッチ機能** を使ってコンパイル・実行する、堅牢でポータブルな手法を「梁の圧縮解析」という具体的な例で解説します。
+COMSOL Multiphysics®では、java形式でのコンパイラをサポートしています。これを用いると、COMSOLの計算を自動で実行することができます。
 
 ## なぜこの方法か？
 
-- **依存関係の簡潔な管理**: `pom.xml` にライブラリを記述するだけで、Mavenが自動でダウンロード・管理してくれます。
-- **環境の非汚染**: `mvn install:install-file` でローカルのMavenリポジトリ (`~/.m2`) を変更する必要がありません。
-- **COMSOL環境の確実な利用**: `comsol.exe` を介して実行することで、ライセンスや必要なネイティブリソースが確実に読み込まれます。
-- **ポータビリティ**: プロジェクトを別のマシンに移動しても、COMSOLがインストールされていれば `pom.xml` のパスを修正するだけで動作します。
-- **モダンなJava環境**: Java 21の最新機能とパフォーマンス向上を活用できます。
+- パラメトリックスタディの実行が容易になる
+	- Pythonなどと組み合わせることでパラメトリックスタディを実行することが容易になります。
 
 ---
 
+# 前準備
+
+前提要件
+
+COMSOLのインストールが完了している
+`.comsol`のディレクトリが存在する
+javaのインストールが完了している
+
+## STEP1 : セキュリティポリシーの設定
+
+1. `C://Program Files/COMSOL`に存在する `default.policy`を確認する
+2. コピーして、`java.policy`を作成する。
+	以下のように記述
+3. `~/.comsol`直下の
+
+### STEP2 : 
 ## 実装方法：梁の圧縮解析
 
 ### 1. プロジェクト構造
@@ -377,17 +388,20 @@ pause
 
 ---
 
-## `comsol.exe batch` コマンドの詳細解説
+## `comsolbatch` コマンドの詳細解説
 
-`comsol.exe batch` は、COMSOLをGUIなしで実行するための強力なコマンドです。
-
-- **`batch`**: COMSOLをバッチモードで起動します。
-- **`-inputfile <file>`**: 実行するファイルを指定します。`.java`, `.class`, `.jar`, `.mph` などが指定可能です。
-- **`-classname <class>`**: `-inputfile` がJARファイルの場合に、実行するメインクラスを指定します。
-- **`-args <arguments...>`**: Javaプログラムの `main` メソッドに渡すコマンドライン引数を指定します。
+`comsolbatch` は、COMSOLをGUIなしで実行するための強力なコマンドです。
+comsolbatch -inputfile my_file.mph -pname tbb,Vtot -plist "1[cm]","10[mV]"  -methodcall my_method -nosave
+- **`-inputfile <file>`**: 実行するファイルを指定します。`.mph` が指定可能です。
+- **`-methodcall <class>`**: `-inputfile` がJARファイルの場合に、実行するメインクラスを指定します。
+- **`-nosave`** : 
 - **`> comsol.log 2>&1`**: 標準出力と標準エラー出力を `comsol.log` ファイルにリダイレクトし、実行記録を残します。
 
 ---
+
+## 参考資料
+
+[コマンドラインからCOMSOL Multiphysics®を実行する方法 \| COMSOL ブログ](https://www.comsol.jp/blogs/how-to-run-comsol-multiphysics-from-the-command-line)
 
 ## トラブルシューティング
 
