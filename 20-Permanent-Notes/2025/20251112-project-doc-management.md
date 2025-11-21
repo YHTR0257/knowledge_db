@@ -1,3 +1,13 @@
+---
+id: 202511110002
+created: 2025-11-11
+updated: 2025-11-11
+tags: [permanent, python, programming, oop, design-pattern]
+type: permanent-note
+status: complete
+confidence: high
+source_type: technical-knowledge
+---
 
 プロジェクト
 

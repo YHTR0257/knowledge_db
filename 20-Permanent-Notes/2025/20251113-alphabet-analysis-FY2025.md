@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ---
 id: 202511130001
 created: 2025-11-13
@@ -9,6 +10,8 @@ confidence: high
 source_type: web-research
 ---
 
+=======
+>>>>>>> Stashed changes
 # **Alphabet Inc.の財務、事業、組織戦略分析：AI駆動型投資サイクルと2025年最新動向**
 
 ## **エグゼクティブ・サマリー**

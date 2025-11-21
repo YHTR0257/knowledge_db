@@ -16,6 +16,8 @@ cache/
 *.toc
 *.synctex.gz
 
+tmp/
+
 # macOS
 .DS_Store
 
