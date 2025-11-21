@@ -9,7 +9,7 @@ author: Unknown
 title: STL Mesh Repair Algorithms and Tools Survey
 confidence: medium
 ---
-
+　
 # STL Mesh Repair Algorithms and Tools Survey
 
 ## Metadata
