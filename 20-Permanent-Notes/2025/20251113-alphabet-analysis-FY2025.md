@@ -1,4 +1,13 @@
-
+---
+id: 202511130001
+created: 2025-11-13
+updated: 2025-11-13
+tags: [company-analysis, alphabet, google, tech, finance, investment, FY2025]
+type: company-analysis
+status: complete
+confidence: high
+source_type: web-research
+---
 
 # **Alphabet Inc.の財務、事業、組織戦略分析：AI駆動型投資サイクルと2025年最新動向**
 
@@ -212,3 +221,13 @@ DEIに関する特定の採用目標の廃止と10-K開示文言の削除は、�
 11. Google Scraps Diversity-Based Hiring Targets \- Insurance Journal, accessed November 13, 2025, [https://www.insurancejournal.com/news/national/2025/02/06/811033.htm](https://www.insurancejournal.com/news/national/2025/02/06/811033.htm)  
 12. Alphabet Organizational Structure in 2025 \- Databahn, accessed November 13, 2025, [https://www.databahn.com/pages/alphabet-organizational-structure](https://www.databahn.com/pages/alphabet-organizational-structure)  
 13. Corporate Governance Guidelines \- Alphabet Inc., accessed November 13, 2025, [https://abc.xyz/investor/board-and-governance/corporate-governance-guidelines/default.aspx](https://abc.xyz/investor/board-and-governance/corporate-governance-guidelines/default.aspx)
+
+---
+
+**関連ノート**
+- [[20251113-alphabet-analysis]] - Alphabet Inc. 企業分析（総覧）
+- [[PRJ-20251029-company-analysis]] - 企業分析プロジェクト
+- [[PRJ-20251029-investing-companies]] - 投資先企業プロジェクト
+- [[20251115-ctc-company-analysis]] - CTC企業分析（比較対象）
+
+---

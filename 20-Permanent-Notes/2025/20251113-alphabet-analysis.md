@@ -1,3 +1,14 @@
+---
+id: 202511130002
+created: 2025-11-13
+updated: 2025-11-13
+tags: [company-analysis, alphabet, google, tech, finance, investment, summary]
+type: company-analysis-summary
+status: ongoing
+confidence: high
+source_type: internal-synthesis
+---
+
 # Alphabet Inc. — 企業分析（総覧）
 
 作成日: 2025-11-13

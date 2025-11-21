@@ -1,4 +1,13 @@
-
+---
+id: 202511130003
+created: 2025-11-13
+updated: 2025-11-13
+tags: [company-analysis, ibm, consulting, it-consulting, career]
+type: company-analysis
+status: ongoing
+confidence: medium
+source_type: web-research
+---
 
 # 概要
 
@@ -26,3 +35,13 @@ IBM Japan Consultingは、IBM Japanのコンサルティング部門であり、
 - **チームワークとコラボレーション:** 顧客の問題を解決するために、スキルベースや業界別のチーム間で協力する文化を重視しています。
 - **グローバルな専門知識:** IBMのグローバルネットワークと深い技術的専門知識を活用できることが大きな強みです。
 - **エンドツーエンドのサポート:** 高度な戦略策定から実装、実行まで、プロジェクトのライフサイクル全体をサポートする能力を持っています。
+
+---
+
+**関連ノート**
+- [[PRJ-20241201-job-hunting-strategy]] - 就職活動戦略プロジェクト
+- [[PRJ-20241201-personal-career-analysis]] - 個人キャリア分析
+- [[PRJ-20251029-company-analysis]] - 企業分析プロジェクト
+- [[20251115-ctc-company-analysis]] - CTC企業分析（比較対象）
+
+---
