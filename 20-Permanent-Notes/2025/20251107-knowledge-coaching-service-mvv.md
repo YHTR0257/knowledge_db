@@ -1,8 +1,14 @@
 ---
 id: 20251107-knowledge-coaching-service-mvv
 created: 2025-11-07
-updated: 2025-11-08
-tags: [permanent, mvv, personal-philosophy, career-development, knowledge-coaching, it-service]
+updated: 2025-11-15
+tags:
+  - permanent
+  - mvv
+  - personal-philosophy
+  - career-development
+  - knowledge-coaching
+  - it-service
 type: permanent-note
 status: active
 confidence: high
@@ -27,6 +33,8 @@ source_type: self-reflection
 > 「やりたいな」と思った時に、その気持ちを消してしまわないように。
 - 自分のやりたいことを実現するために必要なリソースが手に入らずに諦めてしまう人が多い。小学生の頃の「将来の夢」を思い出してほしい。あの時は「やりたいな」と思ったことが、現実的に考えたときに「無理だ」と思ってしまうことが多い。
 - そうならないように、自分のやりたいことを実現するために必要なリソースを簡単に手に入れられる社会を作る。
+- リソースの中でも重要な「情報」を提供する。財務などの定量的情報だけでなく、知見や経験などの非言語情報を提供することに取り組みたい。
+- リサーチ機能を提供するシステムを作り、マーケティングもしくはサプライチェーンを支えたい。
 - そうして、人生に多少なりともワクワク感を持ちながら生きていける人を増やす。
 
 ### Value
@@ -94,6 +102,16 @@ source_type: self-reflection
     - その過程での**内省と修正**を通じて、徐々に進むべき方向性を見出し、最終的に大きな**目標設定**へと繋がっていく傾向がある。
 
 どちらのタイプも5つの要素を循環させることが、自律的な活動の質を高める上で重要となります。
+
+なぜその2領域なのか
+課題が深い
+必要性があることに取り組みたい。
+あったらいいなではなく、ないと困るを目指す
+ただ、ディープテックにも興味がある
+社会的インパクトが大きい
+非構造データが多い
+めtyむずかしいのは承知の上で、それを時間をかけて解くのがいいと思ってる
+
 
 # Related Projects
 - [[PRJ-20241201-job-hunting-strategy]] - 就職活動戦略プロジェクト

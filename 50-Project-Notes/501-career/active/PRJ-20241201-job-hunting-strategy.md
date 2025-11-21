@@ -156,6 +156,9 @@ Target Market: 日本の根幹を担う産業
 - 魅力: 小売・製造・インフラの全領域カバー
 - アプローチ: 機械学習実装→業界特化ソリューション
 
+**IBM Japan Consulting - 企業分析**
+- [[20251113-ibm-japan-consulting-analysis]]
+
 日本IBM
 
 ### Tier 2: 産業特化SaaS・プラットフォーム企業

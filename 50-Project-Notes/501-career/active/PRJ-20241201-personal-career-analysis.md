@@ -232,6 +232,7 @@ research_area: career-development
   - **日立製作所**（社会インフラシステム・製造業DX）
   - **三菱電機**（FA・インフラシステム・予知保全）  
   - **NEC**（製造業・公共インフラ・小売DXソリューション）
+  - **IBM Japan Consulting**（[[20251113-ibm-japan-consulting-analysis]]）
 - **Tier 2**: 根幹産業向けSaaS・プラットフォーム企業
   - **OSIsoft/AVEVA**（製造業データ分析プラットフォーム）
   - **Maintenance Solutions**（設備保全システム）
