@@ -1,15 +1,15 @@
 ---
-id: IDX-{{timestamp}}
-created: {{date}}
-updated: {{date}}
+id: IDX-<% tp.system.prompt("Category name (lowercase-with-hyphens)") %>
+created: <% tp.date.now("YYYY-MM-DD") %>
+updated: <% tp.date.now("YYYY-MM-DD") %>
 tags: [index, {{category}}, {{scope}}]
 type: index-note
-status: active
+status: <% tp.system.suggester(["active", "archived"], ["active", "archived"], false, "Select status") %>
 coverage: {{coverage_percentage}}
-entry_level: {{beginner/intermediate/advanced}}
+entry_level: <% tp.system.suggester(["beginner", "intermediate", "advanced"], ["beginner", "intermediate", "advanced"], false, "Select entry level") %>
 ---
 
-# Index: {{category_name}}
+# Index: <% tp.system.prompt("Category Name") %>
 
 ## Category Definition
 {{what_this_category_covers}}

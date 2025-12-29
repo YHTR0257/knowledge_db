@@ -1,71 +1,66 @@
 ---
-id: LN-{{timestamp}}
-created: {{date}}
-updated: {{date}}
+id: LN-<% tp.date.now("YYYYMMDD") %>-<% tp.system.prompt("Author lastname-Work title (lowercase-with-hyphens)") %>
+created: <% tp.date.now("YYYY-MM-DD") %>
+updated: <% tp.date.now("YYYY-MM-DD") %>
 tags: [literature, {{medium}}, {{domain}}, {{quality_tier}}]
 type: literature-note
-status: {{processed/unprocessed/archived}}
+status: <% tp.system.suggester(["processed", "unprocessed", "archived"], ["processed", "unprocessed", "archived"], false, "Select status") %>
 rating: {{rating_out_of_5}}
 reading_time: {{time_spent}}
+confidence: {{confidence_level}}
+source_type: {{source_type}}
+projects: [{{related_project}}]
+permanent_notes: [{{related_permanent_note}}]
 ---
 
-# {{author_lastname}} - {{work_title}}
+## Overview
 
-## Metadata
-- **Author**: {{full_author_name}}
-- **Title**: {{full_title}}
-- **Type**: {{book/article/paper/video/podcast}}
-- **Publication**: {{publisher_or_journal}}
-- **Year**: {{publication_year}}
-- **Pages/Duration**: {{length}}
-- **ISBN/DOI/URL**: {{identifier}}
+**title** : {{ article title }}
 
-## Summary
-{{three_sentence_summary}}
+## Key points
+<!-- 本記事の keyとなる点を１文で記述し、この記事で重要なことは何かを一目でわかるようにする -->
+- 
+- 
 
-## Key Arguments
-1. {{argument1}}
-2. {{argument2}}
-3. {{argument3}}
+## Back grounds
 
-## Important Quotes
-> {{quote1}}
-> Source: {{page_or_timestamp}}
+背景
 
-> {{quote2}}
-> Source: {{page_or_timestamp}}
+<!-- この記事の背景を簡潔に記述する -->
 
-## Evidence Quality
-- **Methodology**: {{research_method}}
-- **Sample Size**: {{if_applicable}}
-- **Limitations**: {{known_limitations}}
-- **Reliability**: {{high/medium/low}}
+- {{background1}}
+    - この背景について1行で簡潔に説明する
+- {{background2}}
+    - この背景について1行で簡潔に説明する
 
-## Personal Assessment
-### Strengths
-- {{strength1}}
-- {{strength2}}
+## Conclusion
+結論
+本記事においてどのような結論が導き出されたのか
 
-### Weaknesses
-- {{weakness1}}
-- {{weakness2}}
+## Methods
 
-## Actionable Insights
-- {{insight1}}
-- {{insight2}}
+方法論
+<!-- 本記事で用いられた方法論やアプローチを記載する -->
 
-## Permanent Notes Created
-- {{permanent_note1}} - {{concept_extracted}}
-- {{permanent_note2}} - {{concept_extracted}}
+確認手法はどのようなものなのか
 
-## Follow-up Questions
+## Discussion
+
+この記事を受けて自分にどのような影響をもたらすのか
+
+## Questions
+<!-- 次に抱いた疑問や課題を記述する -->
+
 - {{question1}}
+    - この疑問について1行で簡潔に説明する
 - {{question2}}
+    - この疑問について1行で簡潔に説明する
 
-## Related Literature
-- {{related_work1}} - {{relationship_type}}
-- {{related_work2}} - {{relationship_type}}
+## Reference
 
----
-Processing Status: {{fully_processed/partially_processed/pending}}
-Next Action: {{create_permanent_notes/find_related_work/archive}}
+- Author : {{author_name1}}, {{author_name2}}
+- Year : {{publication_year}}
+- Title : {{paper_title}}
+- Publisher : {{publisher_name}}
+- Journal : {{journal_name}}
+- DOI : {{doi_number}}
