@@ -7,21 +7,36 @@ Goal: 様々な企業の分析を行い、投資に繋げる
 
 ### IT・ソフトウェア
 - [[20251113-alphabet-analysis]] - Alphabet Inc. — 企業分析（総覧）
-- [[20251113-alphabet-analysis-FY2025]] - Alphabet Inc.の財務、事業、組織戦略分析：AI駆動型投資サイクルと2025年最新動向
+	- [[20251113-alphabet-analysis-FY2025]] - Alphabet Inc.の財務、事業、組織戦略分析：AI駆動型投資サイクルと2025年最新動向
 - [[20251115-ctc-company-analysis]] - 伊藤忠テクノソリューションズ（CTC、システムインテグレーション・ITサービス）
-
+	- [[20251115-ctc-science-example]] 科学技術本部の実装例をまとめたもの
+- [[20240910-citrine-informatics]] - Citrine (マテリアルインフォマティクスの代表的企業)
 ### IT・コンサルティング
-- [[20240911-nttdata-company-analysis]] - システムインテグレーション・コンサルティング企業
+- [[20250911-nttdata-company-analysis]] - システムインテグレーション・コンサルティング企業
+	- [[20251103-nttdata-sc-unit-analysis]] - サプライチェーンユニットの分析
 - [[20251113-ibm-japan-consulting-analysis]] - IBM Japan Consulting 企業分析
 
 ### 金融
 - [[20251103-mufg-company-analysis]] - 三菱UFJフィナンシャル・グループ（メガバンク最大手、総合金融）
   - [[20251103-ufj-bank-analysis]] - 三菱UFJ銀行（商業銀行、デジタルバンク「エムット」）
-- [[20251103-smbc-company-analysis]] - 三井住友フィナンシャルグループ（メガバンク大手、デジタル化推進）
-  - [[20251103-smbc-bank-analysis]] - 三井住友銀行（商業銀行、デジタルバンク「スマートSMBC」）
+- [[20251103-smbc-group-company-analysis]] - 三井住友フィナンシャルグループ（メガバンク大手、デジタル化推進）
+  -  - 三井住友銀行（商業銀行、デジタルバンク「スマートSMBC」）
 
 ### メーカー
-- [[20251030-asahi-kasei-company-analysis]] - 旭化成（化学・繊維・住宅・医療機器）
+- [[20240910-agc-materials]] - AGC (ガラス・繊維)
+- [[20251030-asahi-kasei]] - 旭化成（化学・繊維・住宅・医療機器）
+- [[20251103-eaton-company-analysis]] - Eaton (配電設備・データセンター関連)
+
+## インフラ
+- [[20251103-hankyu-hansin-hd]] - 阪急阪神HD (関西私鉄の最大グループ、不動産と鉄道の融合モデルを構築)
+
+# 各企業の戦略分析
+
+兵法を参考にした分析
+- [[20251217-clausewitz-on-war-strategy-model]] クラウゼヴィッツの戦略モデル
+- [[20251217-lanchesters-laws]] ランチェスターの法則
+	- [[20251217-lanchester-strategy-for-business-and-investment]]
+- [[20251217-sun-tzu-art-of-war-investment-model]] - 孫子の兵法を用いたモデル
 
 ## 分析フレームワーク
 
