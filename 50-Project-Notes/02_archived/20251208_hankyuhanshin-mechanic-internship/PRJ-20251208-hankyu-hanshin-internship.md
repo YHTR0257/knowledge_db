@@ -1,10 +1,10 @@
 ---
-id: 202511030
-created: 2025-11-03
-updated: 2025-11-03
-tags: [permanent, company-analysis, hankyu-hanshin, railway, real-estate, entertainment, dx, kansai, internship]
+id: PRJ-20251208-hankyu-hanshin-internship
+created: 2025-12-03
+updated: 2025-12-10
+tags: [project, archived, company-analysis, hankyu-hanshin, railway, real-estate, entertainment, dx, kansai, internship]
 type: project-note
-status: active
+status: archived
 confidence: high
 source_type: journal
 industry: 運輸・不動産・エンタテインメント

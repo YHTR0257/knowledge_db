@@ -1,5 +1,14 @@
+---
+id: PRJ-20251104_raksul-ds-internship
+created: 2025-11-04
+updated: 2025-12-03
+tags: [project, archived, internship, data-science, raksul, learning, market-analysis]
+type: project-note
+status: archived
+priority: high
+---
 
-取り組んだこと
+# 取り組んだこと
 
 高Ltv法人の購買パターン分析
 

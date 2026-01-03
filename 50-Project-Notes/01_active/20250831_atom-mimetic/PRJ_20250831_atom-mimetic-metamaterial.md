@@ -1,5 +1,5 @@
 ---
-id: PRJ-20250831-master-thesis-elastic-metamaterial
+id: PRJ_20250831_atom-mimetic-metamaterial
 created: 2025-08-31
 updated: 2025-08-31
 tags: [project, active, research, materials-science, metamaterial, dft, machine-learning]
@@ -11,7 +11,7 @@ supervisor: 助教授（未記載）
 research_area: materials-engineering
 ---
 
-# Master Thesis: Elastic Metamaterial Structure Control
+# Master Thesis: Atom-Mimetic Elastic Metamaterial Structure Control
 
 ## Project Overview
 

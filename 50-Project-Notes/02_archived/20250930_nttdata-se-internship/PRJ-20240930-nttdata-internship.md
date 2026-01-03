@@ -1,10 +1,10 @@
 ---
 id: PRJ-20240930-nttdata-internship
-created: 2024-09-12T10:15:00
-updated: 2024-09-12T10:15:00
+created: 2024-09-12
+updated: 2024-09-12
 tags: [project, development, internship, scm, system-integration]
 type: project-note
-status: active
+status: archived
 priority: high
 coverage: 70
 entry_level: beginner

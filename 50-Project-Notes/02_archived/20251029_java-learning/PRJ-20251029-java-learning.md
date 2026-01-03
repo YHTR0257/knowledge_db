@@ -1,4 +1,12 @@
-
+---
+id: PRJ-20251029_java-learning
+created: 2025-10-29
+updated: 2025-10-29
+tags: [project, archived, computing, java, learning]
+type: project-note
+status: archived
+priority: high
+---
 ## Project Overview
 
 Javaを学習するためのNotebook
@@ -9,7 +17,6 @@ COMSOLを用いたコンパイルを行い、パラメトリックスタディ�
 
 **Timeline**: 開始時期不明 → 提出締切 2027年2月
 
-**Status**: 進行中
 
 ## About Java
 
