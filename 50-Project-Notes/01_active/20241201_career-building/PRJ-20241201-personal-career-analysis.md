@@ -25,16 +25,20 @@ research_area: career-development
 
 ![[20251107-knowledge-coaching-service-mvv#MVV for 株式会社じぶん]]
 
+# Mission Statement
+
+![[20260103_my-mission-statement#main-statement]]
+
 ## Current State Analysis
 
 ### 現在の立ち位置
 - **学歴・専門分野**: 材料工学専攻（修士課程）
-- **研究領域**: [[PRJ-20250831-master-thesis-elastic-metamaterial]] - 弾性メタマテリアル制御
+- **研究領域**: [[PRJ_20250831_atom-mimetic-metamaterial]] - 弾性メタマテリアル制御
 - **専門スキル**: DFT計算、COMSOL、機械学習応用
 - **関心領域**: [[ST-material-informatics]], データサイエンス
 
 ### 価値観・動機分析
-*[[P241201-motivation-theories]]の枠組みで整理*
+[[20241201-motivation-theories]] の枠組みで整理
 
 価値観の形成エピソード
 サポート役
