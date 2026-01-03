@@ -18,11 +18,9 @@ source_type: {{source_type}}
 # Context
 {{why_this_matters}}
 
-## Counterarguments
-{{potential_objections}}
+# Body
 
-## Applications
-{{practical_uses}}
+%% この概念の中身について記述 %%
 
 ## Related Concepts
 
