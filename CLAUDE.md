@@ -17,13 +17,12 @@ The repository follows a hierarchical knowledge organization system:
   - `20-Permanent-Notes/YYYY/` - Permanent notes organized by year for better management
 - `30-Structure-Notes/` - Topic and theme organization
 - `40-Index-Notes/` - Concept, people, and method indexes
-- `50-Project-Notes/` - Active and completed project documentation
-  - `50-Project-Notes/501-career/` - Career-related projects (job hunting, internships, learning)
-    - `active/` - Currently ongoing career projects
-    - `completed/` - Finished career projects
-  - `50-Project-Notes/502-artifact/` - Deliverable and artifact projects (analyses, documents)
-    - `active/` - Currently ongoing artifact creation
-    - `completed/` - Finished artifacts
+- `50-Project-Notes/` - Project lifecycle management with dedicated directories
+  - `50-Project-Notes/01_active/` - Currently active projects
+    - Each project has its own directory: `YYYYMMDD_project-name/`
+    - Contains main project note and project-specific subdirectories
+  - `50-Project-Notes/02_archived/` - Completed or discontinued projects
+    - Same structure as active projects
 - `90-Meta/` - System templates, workflows, and configuration
 
 ### Core Workflow System
@@ -46,16 +45,22 @@ The system uses strict naming patterns:
 - **Literature Notes**: `LN-YYYYMMDD-author-lastname-work-title.md`
 - **Structure Notes**: `ST-theme-name.md`
 - **Index Notes**: `IDX-category-name.md`
-- **Project Notes**: `PRJ-YYYYMMDD-project-name.md`
-  - Organized by category code (501-career, 502-artifact)
-  - Further divided into `active/` and `completed/` subdirectories
-  - Example: `50-Project-Notes/501-career/active/PRJ-20241201-job-hunting-strategy.md`
+- **Project Notes**: `PRJ_YYYYMMDD_project-name.md`
+  - Located within dedicated project directories
+  - Project directory format: `YYYYMMDD_project-name/`
+  - Directory states: `01_active/` or `02_archived/`
+  - Example: `50-Project-Notes/01_active/20241201_job-hunting/PRJ_20241201_job-hunting.md`
 
-All filenames use lowercase with hyphens as separators, no spaces or special characters.
+All filenames use lowercase with hyphens as separators (underscores for project directories and notes), no spaces or special characters.
 
-#### Project Category Codes
-- **501**: Career-related projects (job hunting, internships, skill development, thesis)
-- **502**: Artifact projects (company analyses, research documents, deliverables)
+#### Project Directory Structure
+Each project has a dedicated directory that contains:
+- **Main project note**: `PRJ_YYYYMMDD_project-name.md` - The primary project documentation
+- **deliverables/** (optional) - Project outputs, final documents, code, presentations
+- **reviews/** (optional) - Review notes, feedback sessions, progress assessments
+- **resources/** (optional) - Project-specific materials, references, working files
+
+This structure keeps all project-related materials organized in a single location.
 
 ### Directory Depth Restriction
 **CRITICAL**: Maintain maximum 3-level directory depth throughout the system:
@@ -63,6 +68,8 @@ All filenames use lowercase with hyphens as separators, no spaces or special cha
 - ❌ Incorrect: `10-Literature-Notes/books/fiction/mystery/detective/`
 - ✅ Correct: `40-Index-Notes/concepts/psychology/`
 - ❌ Incorrect: `40-Index-Notes/concepts/psychology/cognitive/biases/`
+
+**Exception**: Project directories (`50-Project-Notes/01_active/YYYYMMDD_project-name/`) may contain flexible internal subdirectories (deliverables/, reviews/, resources/) as needed for project-specific organization. This exception allows projects to maintain their own internal structure without violating the global depth constraint.
 
 This restriction ensures system maintainability and prevents over-categorization.
 
@@ -103,17 +110,32 @@ When adding permanent notes:
 ### Managing Projects
 
 When creating or updating project notes:
-- Choose appropriate category code:
-  - `501-career/` for career-related projects
-  - `502-artifact/` for deliverable/analysis projects
-- Place in `active/` subdirectory during work
-- Move to `completed/` subdirectory when finished
-- Use format: `PRJ-YYYYMMDD-project-name.md`
-- Link project notes to relevant permanent notes and literature notes
 
-Examples:
-- Active career project: `50-Project-Notes/501-career/active/PRJ-20241201-job-hunting-strategy.md`
-- Completed artifact: `50-Project-Notes/502-artifact/completed/PRJ-20251029-company-analysis.md`
+#### Creating a New Project
+1. Create project directory in `50-Project-Notes/01_active/`
+2. Use format: `YYYYMMDD_project-name/`
+3. Create main project note: `PRJ_YYYYMMDD_project-name.md`
+4. Add optional subdirectories as needed:
+   - `deliverables/` - For project outputs
+   - `reviews/` - For progress reviews and feedback
+   - `resources/` - For project-specific materials
+
+#### Project Lifecycle Management
+- **Active projects**: Keep in `50-Project-Notes/01_active/YYYYMMDD_project-name/`
+- **Archiving**: Move entire project directory to `50-Project-Notes/02_archived/` when:
+  - Project is completed
+  - Project is discontinued or on indefinite hold
+  - Project transitions to maintenance-only mode
+
+#### Linking and Integration
+- Link project notes to relevant permanent notes and literature notes
+- Update relevant index notes when projects relate to specific concepts or methods
+- Cross-reference project deliverables in permanent notes when they contain reusable knowledge
+
+#### Examples
+- Active project: `50-Project-Notes/01_active/20241201_job-hunting/PRJ_20241201_job-hunting.md`
+- Archived project: `50-Project-Notes/02_archived/20251029_company-analysis/PRJ_20251029_company-analysis.md`
+- Project with deliverables: `50-Project-Notes/01_active/20250831_thesis/deliverables/final-paper.pdf`
 
 ### Modifying Workflows
 
