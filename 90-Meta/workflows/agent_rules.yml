@@ -31,7 +31,11 @@ workflows:
         format:
           literature: "LN-{date}-{author}-{title}"
           permanent: "{timestamp}-{concept-name}"
-          project: "PRJ-{date}-{project-name}"
+          project: "PRJ_{date}_{project-name}"
+        location:
+          literature: "10-Literature-Notes/{media-type}/"
+          permanent: "20-Permanent-Notes/{year}/"
+          project: "50-Project-Notes/01_active/{date}_{project-name}/"
         
       - step: "initial_tagging"
         action: "suggest_tags"
@@ -155,8 +159,23 @@ workflows:
   # 5. Project Integration
   project_integration:
     name: "Project-Knowledge Integration"
-    trigger: "project_start|project_milestone|project_completion"
+    trigger: "project_start|project_milestone|project_completion|project_archive"
     steps:
+      - step: "project_directory_setup"
+        condition: "project_start"
+        action: "create_project_structure"
+        location: "50-Project-Notes/01_active/"
+        structure:
+          - directory: "YYYYMMDD_project-name/"
+          - main_note: "PRJ_YYYYMMDD_project-name.md"
+          - optional_subdirs:
+              - "deliverables/"
+              - "reviews/"
+              - "resources/"
+        outputs:
+          - project_directory_path
+          - main_note_path
+
       - step: "knowledge_mapping"
         action: "find_relevant_knowledge"
         inputs:
@@ -169,7 +188,7 @@ workflows:
         outputs:
           - relevant_knowledge_map
           - knowledge_gaps
-          
+
       - step: "gap_analysis"
         action: "identify_learning_needs"
         inputs:
@@ -178,15 +197,36 @@ workflows:
         outputs:
           - priority_learning_areas
           - suggested_literature
-          
+
       - step: "project_note_creation"
+        condition: "project_start"
         action: "generate_project_note"
         template: "project_note_template"
+        location: "project_directory/PRJ_YYYYMMDD_project-name.md"
         include:
           - knowledge_map
           - gap_analysis
           - action_items
-          
+          - links_to_related_notes
+
+      - step: "deliverable_management"
+        condition: "project_milestone|project_completion"
+        action: "organize_project_outputs"
+        target_directory: "project_directory/deliverables/"
+        operations:
+          - collect_outputs
+          - create_metadata
+          - link_to_permanent_notes
+
+      - step: "project_review"
+        condition: "project_milestone|project_completion"
+        action: "create_review_note"
+        target_directory: "project_directory/reviews/"
+        include:
+          - progress_assessment
+          - lessons_learned
+          - adjustments_needed
+
       - step: "knowledge_extraction"
         condition: "project_completion"
         action: "extract_lessons_learned"
@@ -194,6 +234,21 @@ workflows:
           - new_permanent_note_candidates
           - updated_methods
           - process_improvements
+        integration:
+          - link_from_project_note
+          - update_structure_notes
+          - update_index_notes
+
+      - step: "project_archiving"
+        condition: "project_archive"
+        action: "move_to_archived"
+        operation: "move_directory"
+        from: "50-Project-Notes/01_active/YYYYMMDD_project-name/"
+        to: "50-Project-Notes/02_archived/YYYYMMDD_project-name/"
+        post_archive:
+          - update_project_index
+          - preserve_all_links
+          - create_archive_metadata
 
   # 6. MCP Query Response
   mcp_query_response:
@@ -271,15 +326,46 @@ ai_instructions:
       - "Atomic and self-contained"
       - "Written in your own words"
       - "Timeless and context-independent"
-    
+
   connection_generation:
     criteria:
       - "Conceptual similarity"
-      - "Causal relationships" 
+      - "Causal relationships"
       - "Contradictory viewpoints"
       - "Supporting evidence"
       - "Practical applications"
-    
+
+  project_management:
+    principles:
+      - "One directory per project with all related materials"
+      - "Use active/archived two-state lifecycle model"
+      - "Keep deliverables, reviews, and resources organized in subdirectories"
+      - "Link project notes to relevant permanent and literature notes"
+      - "Extract reusable knowledge from completed projects"
+
+    directory_structure:
+      - "Format: 50-Project-Notes/{01_active|02_archived}/YYYYMMDD_project-name/"
+      - "Main note: PRJ_YYYYMMDD_project-name.md"
+      - "Optional subdirs: deliverables/, reviews/, resources/"
+
+    lifecycle_actions:
+      start:
+        - "Create project directory in 01_active/"
+        - "Generate main project note with knowledge mapping"
+        - "Link to relevant existing knowledge"
+      milestone:
+        - "Update project note with progress"
+        - "Create review notes in reviews/ subdirectory"
+        - "Organize outputs in deliverables/"
+      completion:
+        - "Extract lessons learned as permanent notes"
+        - "Finalize deliverables with metadata"
+        - "Create completion review"
+      archive:
+        - "Move entire directory to 02_archived/"
+        - "Preserve all internal and external links"
+        - "Update project index"
+
   quality_metrics:
     - "Clarity of core idea"
     - "Strength of connections"

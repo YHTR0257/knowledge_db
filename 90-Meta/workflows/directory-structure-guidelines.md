@@ -30,25 +30,23 @@ This document defines the optimal subdirectory organization for the Zettelkasten
 ├── articles/        # 論文・記事・ブログ
 ├── videos/          # 動画・講義・プレゼン
 ├── conversations/   # インタビュー・会話・議論
-└── podcasts/        # 🆕 ポッドキャスト・音声コンテンツ
+└── podcasts/        # ポッドキャスト・音声コンテンツ
 ```
-
-**追加提案**:
-- `podcasts/` サブフォルダの追加（音声コンテンツの増加に対応）
 
 ---
 
 ## 20-Permanent-Notes/
 **Purpose**: Atomic knowledge units
-**Recommended Structure**: Time-based organization with optional thematic grouping
+**Recommended Structure**: Time-based organization
 
 ```
 20-Permanent-Notes/
 ├── 2024/                  # 年別フォルダ
 ├── 2025/                  # 年別フォルダ
+└── 2026/                  # 年別フォルダ
 ```
 
-**Rationale**: 
+**Rationale**:
 - タイムスタンプIDによる自然な時系列管理
 - 大量化した場合の年フォルダ管理
 - 検索主体のアクセスのためフラット配置も許可
@@ -61,20 +59,20 @@ This document defines the optimal subdirectory organization for the Zettelkasten
 
 ```
 30-Structure-Notes/
-├── domains/                 # 🆕 学術・専門分野
+├── domains/                 # 学術・専門分野
 │   ├── psychology/
 │   ├── technology/
 │   ├── philosophy/
 │   └── business/
-├── methodologies/           # 🆕 手法・アプローチ
+├── methodologies/           # 手法・アプローチ
 │   ├── research-methods/
 │   ├── thinking-frameworks/
 │   └── productivity-systems/
-├── interdisciplinary/       # 🆕 分野横断テーマ
+├── interdisciplinary/       # 分野横断テーマ
 │   ├── complex-systems/
 │   ├── human-computer-interaction/
 │   └── sustainability/
-└── emerging/               # 🆕 新興テーマ・実験的構造
+└── emerging/               # 新興テーマ・実験的構造
 ```
 
 **Rationale**:
@@ -85,20 +83,18 @@ This document defines the optimal subdirectory organization for the Zettelkasten
 ---
 
 ## 40-Index-Notes/
-**Purpose**: Navigation and discovery support  
+**Purpose**: Navigation and discovery support
 **Current Structure**: ✅ Well-designed
 **Recommended Enhancement**: Add temporal and project-based indexes
 
 ```
 40-Index-Notes/
 ├── concepts/               # 概念別索引
-├── people/                # 人物別索引  
+├── people/                # 人物別索引
 ├── methods/               # 手法別索引
 ├── master-index/          # 全体索引
-├── temporal/              # 🆕 時系列索引
-└── projects/              # 🆕 プロジェクト関連索引
-    ├── active-projects/
-    └── completed-projects/
+├── temporal/              # 時系列索引
+└── projects/              # プロジェクト関連索引
 ```
 
 **Enhancement Rationale**:
@@ -108,32 +104,43 @@ This document defines the optimal subdirectory organization for the Zettelkasten
 ---
 
 ## 50-Project-Notes/
-**Purpose**: Practical project management
-**Recommended Structure**: User's specific project categories
+**Purpose**: Project lifecycle management with dedicated project directories
+**Structure**: Two-state system (active/archived) with project-specific subdirectories
 
 ```
 50-Project-Notes/
-├── 01-Career/              # 👩‍💼 進路・就職活動
-│   ├── active/
-│   ├── complete/
-│   └── planning/
-├── 02-Artifact/           # 📄 期限付きの成果物（論文、コード、マニュアルなど）
-│   ├── active/
-│   ├── complete/
-│   └── planning/
-├── 03-Skill-Building/      # 🧠 スキル・資格の学習（Java, 統計検定など）
-│    ├── active/
-│    ├── complete/
-│    └── planning/
-└── meta/                  # プロジェクト管理・テンプレート
-    ├── templates/
-    ├── methodologies/
-    └── reviews/
+├── 01_active/                    # 進行中のプロジェクト
+│   └── YYYYMMDD_project-name/   # プロジェクト専用ディレクトリ
+│       ├── PRJ_YYYYMMDD_project-name.md  # メインプロジェクトノート
+│       ├── deliverables/        # 成果物（任意）
+│       ├── reviews/             # レビュー記録（任意）
+│       └── resources/           # プロジェクト固有リソース（任意）
+└── 02_archived/                 # 完了・中断したプロジェクト
+    └── YYYYMMDD_project-name/   # 同様の構造
 ```
 
 **Rationale**:
-- MECE原則に基づくプロジェクト分類
-- 個人の目標・活動の状況に合わせて、配置場所を変更する
+- プロジェクト固有のファイルを一箇所に集約
+- active/archived の2状態管理でシンプル化
+- プロジェクトディレクトリ内は柔軟な構成を許可
+
+**Naming Conventions**:
+- Directory: `YYYYMMDD_project-name/`
+- Main note: `PRJ_YYYYMMDD_project-name.md`
+- すべて小文字、アンダースコア区切り
+
+---
+
+## 90-Meta/
+**Purpose**: System management and configuration
+**Structure**: Workflows, templates, and statistics
+
+```
+90-Meta/
+├── workflows/          # プロセス定義・ガイドライン
+├── templates/          # ノートテンプレート
+└── statistics/         # システム統計情報
+```
 
 ---
 
@@ -146,13 +153,15 @@ This document defines the optimal subdirectory organization for the Zettelkasten
 - ✅ Acceptable: `30-Structure-Notes/domains/psychology/`
 - ❌ Prohibited: `30-Structure-Notes/domains/psychology/cognitive/biases/`
 
+**Exception**: Project directories (`50-Project-Notes/01_active/YYYYMMDD_project-name/`) may contain flexible internal structure for project-specific needs.
+
 **Enforcement Strategy**:
 - Use filename prefixes for additional categorization
 - Leverage tags for multi-dimensional classification
 - Use index notes for detailed subcategory management
 
 ### Folder Naming
-- 全て小文字、ハイフン区切り
+- 全て小文字、ハイフン区切り（プロジェクトディレクトリはアンダースコア）
 - 単数形使用（`method/` not `methods/`）
 - 略語は避ける（明確性優先）
 
@@ -168,6 +177,6 @@ This document defines the optimal subdirectory organization for the Zettelkasten
 
 ---
 
-**Last Updated**: 2025-08-31
-**Version**: 1.0
-**Status**: Draft for Review
+**Last Updated**: 2026-01-03
+**Version**: 2.0
+**Status**: Updated for new project structure
