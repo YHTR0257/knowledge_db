@@ -51,6 +51,8 @@ Material Informaticsとデータサイエンス領域でのキャリア構築に
 - [[P240910-my-skill-portfolio]] - 個人スキルセット
 - [[P240910-career-path-vision]] - キャリア目標との整合
 - [[P240911-job-comparison-framework]] - 職種要求との比較
+- [[ST_project-management]] - プロジェクトマネジメントフレームワーク
+    - プロジェクト実行を通じたスキル成長の測定とPDCAサイクルへの統合
 
 ## Sources
 - Self-assessment exercises

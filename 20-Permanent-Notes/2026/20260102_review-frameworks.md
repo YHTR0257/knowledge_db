@@ -100,6 +100,8 @@ confidence: high
     - 効果的な振り返りを実施するための土台となる。特に4LやYWTなどは、この安全性を高めながら進めることを重視する。
 - **SMARTフレームワーク** [[20260102_smart-framework]] - goal setting framework
     - 振り返りの「次にやること」を具体化する際に、SMART原則を適用することで実行可能性が高まる。
+- **プロジェクトマネジメント** [[ST_project-management]] - comprehensive project management framework
+    - 振り返りフレームワークをPDCAサイクルの一部として体系的に活用するための全体像。目標設定から実行、評価、改善までを統合。
 
 ## Sources
 - 各手法の個別ノートを参照
