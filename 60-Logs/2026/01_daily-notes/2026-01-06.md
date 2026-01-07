@@ -1,0 +1,33 @@
+---
+id: <% tp.date.now("YYYYMMDD") %>
+created: <% tp.date.now("YYYY-MM-DD") %>
+updated: <% tp.date.now("YYYY-MM-DD") %>
+tags: [daily, diary]
+projects: [{{project_notes}}]
+---
+
+## やったこと
+- {{task1}}
+    - {{result1}}
+- {{task2}}
+    - {{result2}}
+    - {{problem1}}
+- {{task3}}
+
+## 問題点
+
+- {{problem1}}
+    - {{solution_idea1}}
+- {{problem2}}
+    - {{solution_idea2}}
+
+## 気づき・学び
+
+- {{insight1}}
+- {{insight2}}
+- {{insight3}}
+
+## Next Actions
+- [ ] {{next_action1}}
+- [ ] {{next_action2}}
+- [ ] {{next_action3}}
