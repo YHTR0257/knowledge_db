@@ -1,62 +1,64 @@
-# Material Informatics
+---
+id: ST-material-informatics
+created: 2024-09-10
+updated: 2026-01-07
+tags: [structure, materials-science, informatics]
+type: structure-note
+status: active
+scope: domain-knowledge
+---
+
+# Material Informatics (MI)
 
 ## 概要
-材料情報学（Material Informatics, MI）に関する知識体系を整理するための構造ノート。材料科学とデータサイエンスの融合領域として、材料開発の効率化と最適化を扱う。
+材料科学（Materials Science）とデータサイエンス（Data Science）を融合させ、材料開発の効率化、新材料の発見、および特性最適化を加速させるための構造ノート。シミュレーション技術（DFT, FEM）と機械学習の連携を核とする。
 
-## 核となる要素
+## 1. Core Principles & Theories (核となる理論と原理)
+MIの実装を支える基礎理論と設計思想。
 
-### 専門分野の応用
-- 金属工学の専門知識を活用
-- 材料開発プロセスの最適化
-- ミクロの世界からより暮らしやすい世界を目指すアプローチ
+### Materials Design Strategy
+- [[20250831_machine-learning-materials-design]] - 材料設計における機械学習の適用
+- [[20250831_elastic-property-inverse-design-principle]] - 弾性特性の逆設計原理
+- [[20250831_electronic-structure-macro-property-bridging]] - 電子構造とマクロ特性の架け橋
+- [[20250831-metamaterial-design-theory]] - メタマテリアル設計理論
 
-### 技術的アプローチ
-- データサイエンス手法の材料分野への適用
-- アンサンブル学習による材料特性予測
-- 多様な状況下での求める材料の開発
-- システム開発による効率化
+### Advanced Research
+- [[20251104-local-orbital-basis-suite-towards-electronic-structure-reconstruction]] - 電子構造再構成のための局在基底スイート
+- [[20251121-hhg-anisotoropy-analysis]] - 高次高調波発生（HHG）を用いた異方性解析
 
-### 産業応用
-- 重工業での活用
-- 自動車製造業での材料最適化
-- 金属関連産業界での研究開発
+## 2. Tools & Simulation (ツールとシミュレーション)
+MIを実践するためのソフトウェア環境とAPI連携。
 
-## キャリアとの関連
+### COMSOL Multiphysics & Optimization
+- [[ST_comsol-learning]] - COMSOL学習の構造ノート
+- [[ST_comsol-topology-optimization]] - トポロジー最適化の構造ノート
+- [[20251030-comsol-java-api-setup]] - COMSOL Java APIのセットアップ
+- [[20260104_comsol-topology-optimization-api]] - APIを用いたトポロジー最適化
+- [[20251121-comsol-file-learning]] - シミュレーションファイルの管理と学習
 
-### 研究開発領域
-- MIにつながる研究室での研究活動
-- システム開発を含む研究開発業務
-- 材料開発に関係するプロジェクト
+### Data Processing & Library
+- [[20251030-pymatgen-setup]] - 材料データ解析ライブラリ `pymatgen` の導入
+- [[20260105_image-stacking]] - 画像スタッキングと解析技術
 
-### 目標とする価値提供
-- 人々の生活の最適化
-- 幸福の最大化への貢献
-- 材料開発効率の向上
+## 3. Industry & Career (産業界とキャリア)
+MI技術が求められる現場と、専門家としてのキャリアパス。
 
-## 関連する永続ノート
-- [[P240910-citrine-informatics]]
-- [[P240910-agc-materials]]
-- [[P240910-career-path-vision]]
-- [[P240910-my-skill-portfolio]]
-- [[P240911-ensemble-learning-methods]]
+### Company Analysis (MI Focus)
+- [[20251030-asahi-kasei]] - 旭化成におけるMI/デジタル活用
+- [[20240910-agc-materials]] - AGCにおける材料開発
+- [[20251103-eaton-company-analysis]] - グローバル企業（Eaton）の分析
+- [[20240910-citrine-informatics]] - MIプラットフォームのパイオニア
 
-## 関連する構造ノート
-- [[ST-career-development]] - キャリア開発戦略
-- [[ST-data-science-career]] - データサイエンス職種
+### Career Development
+- [[ST-data-science-career]] - データサイエンススキルとの融合
+- [[ST-career-development]] - キャリア構築戦略
+- [[20250910-my-skill-portfolio]] - 自身の専門性（材料×IT）の定義
 
-## 参考企業・事例
-- [[P240910-citrine-informatics]] - MIプラットフォーム企業
-- [[P240910-agc-materials]] - ガラス・化学メーカーでのMI活用
-- Panasonic - 電機メーカーでの材料開発
-- 旭化成 - 化学メーカーでの研究開発
-- HITACHI - 総合電機でのシステム開発
+## 4. Specific Methods (具体的な手法)
+- [[20240911-ensemble-learning-methods]] - アンサンブル学習の材料データへの適用
+- [[20260104_topology-optimization]] - トポロジー最適化の一般理論
+- [[20260104_density-model]] - 密度法による設計変数モデル
 
-## 課題と展望
-- 条件を満たす企業が少ない可能性
-- 専門性とデータサイエンスの融合人材の需要
-- 研究開発からシステム開発まで幅広いスキルセットの必要性
-
-## メタデータ
-- 作成日：2024-09-10
-- 最終更新：2024-09-10
-- 関連タグ：#material-informatics #materials-science #data-science #career
+## 関連構造ノート
+- [[ST-software-architecture]] - シミュレーションコードの設計
+- [[ST-3d-geometry-processing]] - 形状最適化と幾何データ処理

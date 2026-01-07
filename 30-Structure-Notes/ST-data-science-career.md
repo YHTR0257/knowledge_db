@@ -1,70 +1,67 @@
+---
+id: ST-data-science-career
+created: 2024-09-10
+updated: 2026-01-07
+tags: [structure, data-science, career]
+type: structure-note
+status: active
+scope: domain-knowledge
+---
+
 # Data Science Career
 
 ## 概要
-データサイエンス領域でのキャリア構築に関する知識を整理するための構造ノート。データサイエンスの技術的スキルとキャリア戦略、業界応用を包含する。
+データサイエンスを軸としたキャリア構築のための構造ノート。技術的スキルセット、ドメイン知識の融合、そして各業界における実践的応用を体系化する。単なる分析屋にとどまらず、エンジニアリング能力とビジネス課題解決能力を兼ね備えた人材を目指す。
 
-## 核となる要素
+## 1. Technical Foundation (技術的基盤)
+データサイエンティストとして不可欠な数理的・工学的スキル。
 
-### データサイエンスの活用領域
-- 多様な状況下での最適解の提供
-- 人々の生活の最適化
-- 幸福の最大化への貢献
+### Programming & Engineering
+- [[20251010-python-typing-by-protocol]] - Pythonにおける型設計とProtocol
+- [[20251111-python-abstract-method]] - オブジェクト指向設計と抽象化
+- [[20251203-setup-python-with-uv]] - 最新のPython環境構築と依存関係管理
+- [[20240911-rest-api-architecture]] - API設計とシステム連携
+- [[20251231-mcp-server-for-documents]] - LLM/AIエージェント技術の実装
 
-### チーム効率化の役割
-- 色々なものを組み合わせてチームの効率を最大化
-- データドリブンな意思決定の支援
-- 組織の生産性向上への貢献
+### Theory & Algorithms
+- [[20251029-graph-theory-fundamentals]] - グラフ理論の基礎と応用
+- [[20251029-graph-representation]] - 隣接行列・隣接リストなどの実装パターン
+- [[20251029-directed-acyclic-graph]] - DAG (有向非巡回グラフ) の理解
+- [[20240911-ensemble-learning-methods]] - アンサンブル学習手法による精度向上
 
-### 技術的専門性
-- データ分析・機械学習スキル
-- システム開発能力
-- 統計・数理モデリング
+## 2. Domain Applications (ドメイン応用)
+データサイエンス技術を特定の産業領域に適用し、価値を創出する。
 
-## キャリアパスでの位置づけ
+### Material Informatics (MI)
+- [[ST-material-informatics]] - MI領域のキャリア全体像
+- [[20250831_machine-learning-materials-design]] - 機械学習を用いた材料設計
+- [[20250831_electronic-structure-macro-property-bridging]] - マルチスケールシミュレーションとの連携
 
-### 専門性の発展
-- データサイエンス基礎スキルの習得
-- 業界特化知識との融合（特に材料分野）
-- マネジメント・リーダーシップスキルの発達
+### Finance & FinTech (Quants)
+- [[20240910-quants-career-path]] - クオンツ・金融工学分野のキャリア
+- [[20250911-financial-inclusion-through-technology]] - FinTechによる課題解決
+- [[20250911-unit-economics-in-fintech]] - ビジネスモデルとデータ分析
 
-### 目標とする働き方
-- 自由度の高い働き方
-- 上司・同僚との良好なコミュニケーション
-- 比較的高い収入レベル
+## 3. Industry & Market Strategy (業界・市場戦略)
+各業界におけるデータサイエンス人材の需要と役割の理解。
 
-## 社会人として目指す姿
-- 素直で学習意欲の高い姿勢
-- 他人から貪欲に吸収する姿勢
-- 報連相がしっかりとした信頼される人材
-- 部下・上司双方から頼られる存在
+### Tech & Consulting Leaders
+- [[20251113-alphabet-analysis]] - グローバルテック企業のAI戦略 (Alphabet)
+- [[20251113-ibm-japan-consulting-analysis]] - コンサルティング領域でのデータ活用
+- [[20251103-nttdata-sc-unit-analysis]] - 大手SIerにおける戦略的データ活用
 
-## 関連する永続ノート
-- [[P240910-my-skill-portfolio]]
-- [[P240910-skill-evaluation-framework]]
-- [[P240910-task-management-skills]]
-- [[P240910-quants-career-path]]
-- [[P240911-nttdata-company-analysis]]
-- [[P240911-ensemble-learning-methods]]
+### Career Positioning
+- [[20250910-my-skill-portfolio]] - 自身のスキルポートフォリオの現在地
+- [[20240910-skill-evaluation-framework]] - 市場価値とスキルの定量的評価
 
-## 関連する構造ノート
-- [[ST-career-development]] - 全体的なキャリア戦略
-- [[ST-material-informatics]] - 専門分野との融合
-- [[ST-software-architecture]] - 技術実装スキル
+## 4. Professional Mindset (プロフェッショナル・マインド)
+技術をビジネス価値に変換するためのソフトスキルと姿勢。
 
-## 応用分野
-- Material Informatics
-- 金融・Quants領域
-- 製造業での品質管理・プロセス最適化
-- サプライチェーン最適化・システム統合
-- 研究開発支援システム
+- [[20250921-essential-problem-solving]] - 本質的な問題解決能力
+- [[20240910-task-management-skills]] - 効率的な業務遂行とタスク管理
+- [[20250921-supportive-leadership-style]] - チームでのデータ活用推進とリーダーシップ
 
-## スキル開発優先度
-1. データサイエンス基礎技術
-2. ドメイン知識（材料科学）
-3. コミュニケーション・マネジメント
-4. システム開発・エンジニアリング
-
-## メタデータ
-- 作成日：2024-09-10
-- 最終更新：2024-09-10
-- 関連タグ： #data-science #career #analytics #machine-learning
+## 関連構造ノート
+- [[ST-career-development]] - キャリア開発全般
+- [[ST-software-architecture]] - ソフトウェアアーキテクチャ知識
+- [[ST-3d-geometry-processing]] - 幾何学的データ処理（特化スキル）

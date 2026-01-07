@@ -1,64 +1,55 @@
+---
+id: ST-software-architecture
+created: 2024-09-11
+updated: 2026-01-07
+tags: [structure, software-engineering, architecture]
+type: structure-note
+status: active
+scope: technical-skills
+---
+
 # Software Architecture
 
 ## 概要
-ソフトウェアアーキテクチャに関する知識体系を整理するための構造ノート。システム設計原則、アーキテクチャパターン、実装手法を包含し、効率的で保守可能なソフトウェア開発の指針を提供する。
+堅牢で保守性の高いソフトウェアを構築するための設計原則、パターン、および実装技術を体系化した構造ノート。オブジェクト指向設計から、データ構造の選択、そして最新のエコシステムやAPI連携までを網羅する。
 
-## 核となる要素
+## 1. Design Principles & Patterns (設計原則とパターン)
+コードの保守性、再利用性、拡張性を高めるための基礎的な設計思想。
 
-### アーキテクチャスタイル
-- RESTful API設計原則
-- マイクロサービスアーキテクチャ
-- 階層化アーキテクチャ
-- イベントドリブンアーキテクチャ
+### Object-Oriented Design (OOP) & Abstraction
+- [[20251111-python-abstract-method]] - 抽象クラスを用いたインターフェース定義と強制
+- [[20251010-python-typing-by-protocol]] - PythonにおけるProtocolを用いた構造的サブタイピング (Duck Typing)
+- [[20251111-python-class-method]] - クラスメソッドの適切な使用場面とファクトリーパターン
+- [[20251111-python-static-method]] - スタティックメソッドの役割とユーティリティ化
+- [[20251029-java-pojo-and-javabeans]] - Javaにおけるデータオブジェクトの設計 (POJO/Beans)
 
-### 設計原則
-- ステートレス設計
-- スケーラビリティ考慮
-- システム独立性の確保
-- 統一されたインターフェース
+## 2. Data Structures in Architecture (アーキテクチャにおけるデータ構造)
+システムの要件に応じた適切なデータ表現と構造の選択。
 
-### 技術的実装
-- API設計とドキュメント化
-- キャッシュ戦略
-- 負荷分散とパフォーマンス最適化
-- セキュリティとアクセス制御
+- [[20251029-graph-theory-fundamentals]] - 複雑な関係性をモデル化するグラフ理論
+- [[20251029-graph-representation]] - 隣接行列・隣接リストなどの実装パターン
+- [[20251029-directed-acyclic-graph]] - 依存関係解決やワークフロー制御におけるDAG (有向非巡回グラフ)
+- [[20251029-tree-structure]] - 階層データの表現と走査
 
-## キャリアとの関連
+## 3. System Integration & APIs (システム統合とAPI)
+異なるコンポーネントやシステム間を疎結合に連携させるための技術。
 
-### データサイエンス分野での応用
-- データパイプライン設計
-- 機械学習モデルのAPI化
-- リアルタイムデータ処理システム
-- 分析結果の配信システム
+- [[20251231-mcp-server-for-documents]] - LLMと外部データを接続する Model Context Protocol (MCP) アーキテクチャ
+- [[20240911-rest-api-architecture]] - RESTful APIの設計原則とベストプラクティス
+- **API Design**: インターフェースの統一、ステートレス設計、ドキュメント化
 
-### システム開発能力
-- バックエンドシステム設計
-- マイクロサービス連携
-- API統合とオーケストレーション
-- クラウドネイティブアプリケーション
+## 4. Modern Development Ecosystem (開発エコシステム)
+効率的な開発・ビルド・デプロイを支えるツールチェーンと環境。
 
-## 関連する永続ノート
-- [[P240911-rest-api-architecture]]
-- [[P240911-nttdata-company-analysis]]
-- [[P240910-my-skill-portfolio]]
+### Python Ecosystem
+- [[20251203-setup-python-with-uv]] - `uv` を用いた高速なパッケージ管理と環境分離
 
-## 関連する構造ノート
-- [[ST-data-science-career]] - データサイエンス技術との統合
-- [[ST-career-development]] - 技術キャリア発展
+### Java Ecosystem
+- [[20251029-maven]] - 依存関係管理とビルドライフサイクル
+- [[20251029-java-starter-guide-for-config]] - プロジェクト構成のベストプラクティス
+- [[20251029-java-setup-vscode]] - 開発環境の構築
 
-## 実践的応用領域
-- Webアプリケーション開発
-- データサイエンスプラットフォーム構築
-- IoTシステム統合
-- 企業システム現代化
-
-## 学習・発展の方向性
-- クラウドアーキテクチャ（AWS, GCP, Azure）
-- コンテナ技術（Docker, Kubernetes）
-- DevOps/CI-CDパイプライン
-- セキュリティアーキテクチャ
-
-## メタデータ
-- 作成日：2024-09-11
-- 最終更新：2024-09-11
-- 関連タグ：#software-architecture #api-design #system-design #technical-skills
+## 関連構造ノート
+- [[ST-data-science-career]] - データサイエンス実装力としてのアーキテクチャ
+- [[ST-material-informatics]] - 科学計算ソフトウェアの設計
+- [[ST-career-development]] - エンジニアリングキャリア
